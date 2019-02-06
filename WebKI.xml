@@ -132,14 +132,14 @@
     <HelpKINode Title="MethodReturn.Exception Property " Url="html/P_CADSharpTools_Commons_MethodReturn_Exception.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension class">
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_Commons_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Commons_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.BatchCheckIn method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm" />
   <HelpKINode Title="Extension.BatchCheckOutFiles method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm" />
@@ -155,8 +155,8 @@
   <HelpKINode Title="Extension.GetAllFiles method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFiles.htm" />
   <HelpKINode Title="Extension.GetAllFilesAsync method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFilesAsync.htm" />
   <HelpKINode Title="Extension.GetAllReferences method">
-    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
     <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllReferences.htm" />
+    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.GetAllUserGroups method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUserGroups.htm" />
   <HelpKINode Title="Extension.GetAllUsers method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUsers.htm" />
