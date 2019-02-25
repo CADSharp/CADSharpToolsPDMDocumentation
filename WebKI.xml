@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
+  <HelpKINode Title="AddConfigurationName method" Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_AddConfigurationName.htm" />
   <HelpKINode Title="AddDialog method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_AddDialog.htm" />
   <HelpKINode Title="AddInName property" Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskProperties_AddInName.htm" />
   <HelpKINode Title="AddTail method" Url="html/M_CADSharpTools_PDM_Testing_mEdmStrLst5_AddTail.htm" />
+  <HelpKINode Title="Application class">
+    <HelpKINode Title="Application Class" Url="html/T_CADSharpTools_SOLIDWORKS_Application.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_SOLIDWORKS_Application__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Application.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Application.Application constructor" Url="html/M_CADSharpTools_SOLIDWORKS_Application__ctor.htm" />
+  <HelpKINode Title="Application.ConvertSWRevisionNumberToYear method" Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertSWRevisionNumberToYear.htm" />
+  <HelpKINode Title="Application.ConvertYearToSWRevisionNumber method" Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertYearToSWRevisionNumber.htm" />
   <HelpKINode Title="ApplicationData enumeration member" Url="html/T_CADSharpTools_e_SpecialFolder.htm" />
   <HelpKINode Title="AssemblyOnly enumeration member" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
   <HelpKINode Title="AssociatedAction property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton_AssociatedAction.htm" />
@@ -14,6 +23,8 @@
   <HelpKINode Title="Buttons property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_Buttons.htm" />
   <HelpKINode Title="CADSharpTools.Commons namespace" Url="html/N_CADSharpTools_Commons.htm" />
   <HelpKINode Title="CADSharpTools.Commons.CADSharpToolsPDMException class" Url="html/T_CADSharpTools_Commons_CADSharpToolsPDMException.htm" />
+  <HelpKINode Title="CADSharpTools.Commons.CTContractSerialization(Of T) class" Url="html/T_CADSharpTools_Commons_CTContractSerialization_1.htm" />
+  <HelpKINode Title="CADSharpTools.Commons.CTContractSerialization&lt;T&gt; class" Url="html/T_CADSharpTools_Commons_CTContractSerialization_1.htm" />
   <HelpKINode Title="CADSharpTools.Commons.CTSerialization(Of T) class" Url="html/T_CADSharpTools_Commons_CTSerialization_1.htm" />
   <HelpKINode Title="CADSharpTools.Commons.CTSerialization&lt;T&gt; class" Url="html/T_CADSharpTools_Commons_CTSerialization_1.htm" />
   <HelpKINode Title="CADSharpTools.Commons.Extension class" Url="html/T_CADSharpTools_Commons_Extension.htm" />
@@ -23,11 +34,16 @@
   <HelpKINode Title="CADSharpTools.Commons.MethodReturn&lt;T, IConvertible&gt; class" Url="html/T_CADSharpTools_Commons_MethodReturn_2.htm" />
   <HelpKINode Title="CADSharpTools.Commons.MethodReturn&lt;T&gt; class" Url="html/T_CADSharpTools_Commons_MethodReturn_1.htm" />
   <HelpKINode Title="CADSharpTools.Commons.Progress class" Url="html/T_CADSharpTools_Commons_Progress.htm" />
+  <HelpKINode Title="CADSharpTools.Diagnostics namespace" Url="html/N_CADSharpTools_Diagnostics.htm" />
+  <HelpKINode Title="CADSharpTools.Diagnostics.Console class" Url="html/T_CADSharpTools_Diagnostics_Console.htm" />
+  <HelpKINode Title="CADSharpTools.DocumentManager namespace" Url="html/N_CADSharpTools_DocumentManager.htm" />
+  <HelpKINode Title="CADSharpTools.DocumentManager.Models namespace" Url="html/N_CADSharpTools_DocumentManager_Models.htm" />
+  <HelpKINode Title="CADSharpTools.DocumentManager.Models.swDocManVisibleReferencedDocument class" Url="html/T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm" />
+  <HelpKINode Title="CADSharpTools.DocumentManager.swDocMan class" Url="html/T_CADSharpTools_DocumentManager_swDocMan.htm" />
   <HelpKINode Title="CADSharpTools.PDM namespace" Url="html/N_CADSharpTools_PDM.htm" />
   <HelpKINode Title="CADSharpTools.PDM.Database namespace" Url="html/N_CADSharpTools_PDM_Database.htm" />
   <HelpKINode Title="CADSharpTools.PDM.Database.SQLHandler class" Url="html/T_CADSharpTools_PDM_Database_SQLHandler.htm" />
   <HelpKINode Title="CADSharpTools.PDM.Extension class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
-  <HelpKINode Title="CADSharpTools.PDM.Extension.VaultVariable class" Url="html/T_CADSharpTools_PDM_Extension_VaultVariable.htm" />
   <HelpKINode Title="CADSharpTools.PDM.MVVM.ViewModels namespace" Url="html/N_CADSharpTools_PDM_MVVM_ViewModels.htm" />
   <HelpKINode Title="CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel(Of T) class" Url="html/T_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1.htm" />
   <HelpKINode Title="CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel&lt;T&gt; class" Url="html/T_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1.htm" />
@@ -39,14 +55,15 @@
   <HelpKINode Title="CADSharpTools.PDM.Testing.mEdmStrLst5 class" Url="html/T_CADSharpTools_PDM_Testing_mEdmStrLst5.htm" />
   <HelpKINode Title="CADSharpTools.PDM.Testing.mEdmTaskInstance class" Url="html/T_CADSharpTools_PDM_Testing_mEdmTaskInstance.htm" />
   <HelpKINode Title="CADSharpTools.PDM.Testing.mEdmTaskProperties class" Url="html/T_CADSharpTools_PDM_Testing_mEdmTaskProperties.htm" />
+  <HelpKINode Title="CADSharpTools.PDM.Testing.TestsManager class" Url="html/T_CADSharpTools_PDM_Testing_TestsManager.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS namespace" Url="html/N_CADSharpTools_SOLIDWORKS.htm" />
+  <HelpKINode Title="CADSharpTools.SOLIDWORKS.Application class" Url="html/T_CADSharpTools_SOLIDWORKS_Application.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.Costing namespace" Url="html/N_CADSharpTools_SOLIDWORKS_Costing.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.Costing.Extension class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.Costing.Extension.CostingType enumeration" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension_CostingType.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.Extension class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.Measure class" Url="html/T_CADSharpTools_SOLIDWORKS_Measure.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.Singleton class" Url="html/T_CADSharpTools_SOLIDWORKS_Singleton.htm" />
-  <HelpKINode Title="CADSharpTools.SOLIDWORKS.SOLIDWORKSDialogBoxSuppresser class" Url="html/T_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.UIAutomation namespace" Url="html/N_CADSharpTools_SOLIDWORKS_UIAutomation.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.UIAutomation.swDialog class" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog.htm" />
   <HelpKINode Title="CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButton class" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton.htm" />
@@ -76,15 +93,35 @@
   <HelpKINode Title="CloseDialog enumeration member" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButtonAction_e.htm" />
   <HelpKINode Title="Complete method" Url="html/M_CADSharpTools_Commons_Progress_Complete.htm" />
   <HelpKINode Title="CompleteWithError method" Url="html/M_CADSharpTools_Commons_Progress_CompleteWithError.htm" />
-  <HelpKINode Title="ConfigurationValueDictionary property" Url="html/P_CADSharpTools_PDM_Extension_VaultVariable_ConfigurationValueDictionary.htm" />
   <HelpKINode Title="Connection property" Url="html/P_CADSharpTools_PDM_Database_SQLHandler_Connection.htm" />
   <HelpKINode Title="ConnectionString property" Url="html/P_CADSharpTools_PDM_Database_SQLHandler_ConnectionString.htm" />
+  <HelpKINode Title="Console class" Url="html/T_CADSharpTools_Diagnostics_Console.htm" />
   <HelpKINode Title="ConvertLength method" Url="html/M_CADSharpTools_SOLIDWORKS_Measure_ConvertLength.htm" />
+  <HelpKINode Title="ConvertSWRevisionNumberToYear method" Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertSWRevisionNumberToYear.htm" />
+  <HelpKINode Title="ConvertYearToSWRevisionNumber method" Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertYearToSWRevisionNumber.htm" />
   <HelpKINode Title="Count property" Url="html/P_CADSharpTools_PDM_Testing_mEdmStrLst5_Count.htm" />
   <HelpKINode Title="CreateFileObjectFromRelativePath method" Url="html/M_CADSharpTools_PDM_Testing_EdmObjectFactory_CreateFileObjectFromRelativePath.htm" />
   <HelpKINode Title="CreateOpenFileDialog method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_CreateOpenFileDialog.htm" />
   <HelpKINode Title="CreateOptionsDialog method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_CreateOptionsDialog.htm" />
   <HelpKINode Title="CreateVaultObject method" Url="html/M_CADSharpTools_PDM_Testing_EdmObjectFactory_CreateVaultObject.htm" />
+  <HelpKINode Title="CTContractSerialization(Of T) class">
+    <HelpKINode Title="CTContractSerialization(T) Class" Url="html/T_CADSharpTools_Commons_CTContractSerialization_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Commons_CTContractSerialization_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CTContractSerialization(Of T).CTContractSerialization constructor" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1__ctor.htm" />
+  <HelpKINode Title="CTContractSerialization(Of T).Deserialize method" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_Deserialize.htm" />
+  <HelpKINode Title="CTContractSerialization(Of T).SaveToXML method" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_SaveToXML.htm" />
+  <HelpKINode Title="CTContractSerialization(Of T).Serialize method" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_Serialize.htm" />
+  <HelpKINode Title="CTContractSerialization&lt;T&gt; class">
+    <HelpKINode Title="CTContractSerialization(T) Class" Url="html/T_CADSharpTools_Commons_CTContractSerialization_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Commons_CTContractSerialization_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CTContractSerialization&lt;T&gt;.CTContractSerialization constructor" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1__ctor.htm" />
+  <HelpKINode Title="CTContractSerialization&lt;T&gt;.Deserialize method" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_Deserialize.htm" />
+  <HelpKINode Title="CTContractSerialization&lt;T&gt;.SaveToXML method" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_SaveToXML.htm" />
+  <HelpKINode Title="CTContractSerialization&lt;T&gt;.Serialize method" Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_Serialize.htm" />
   <HelpKINode Title="CTSerialization(Of T) class">
     <HelpKINode Title="CTSerialization(T) Class" Url="html/T_CADSharpTools_Commons_CTSerialization_1.htm" />
     <HelpKINode Title="constructor" Url="html/M_CADSharpTools_Commons_CTSerialization_1__ctor.htm" />
@@ -104,7 +141,10 @@
   <HelpKINode Title="CTSerialization&lt;T&gt;.SaveToXML method" Url="html/M_CADSharpTools_Commons_CTSerialization_1_SaveToXML.htm" />
   <HelpKINode Title="CTSerialization&lt;T&gt;.Serialize method" Url="html/M_CADSharpTools_Commons_CTSerialization_1_Serialize.htm" />
   <HelpKINode Title="DeleteAllProperties method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_DeleteAllProperties.htm" />
-  <HelpKINode Title="Deserialize method" Url="html/M_CADSharpTools_Commons_CTSerialization_1_Deserialize.htm" />
+  <HelpKINode Title="Deserialize method">
+    <HelpKINode Title="CTContractSerialization(T).Deserialize Method " Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_Deserialize.htm" />
+    <HelpKINode Title="CTSerialization(T).Deserialize Method " Url="html/M_CADSharpTools_Commons_CTSerialization_1_Deserialize.htm" />
+  </HelpKINode>
   <HelpKINode Title="Desktop enumeration member" Url="html/T_CADSharpTools_e_SpecialFolder.htm" />
   <HelpKINode Title="Dialogs property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Dialogs.htm" />
   <HelpKINode Title="Dispose method">
@@ -157,15 +197,17 @@
     <HelpKINode Title="MethodReturn(T, IConvertible).Exception Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_Exception.htm" />
     <HelpKINode Title="MethodReturn.Exception Property " Url="html/P_CADSharpTools_Commons_MethodReturn_Exception.htm" />
   </HelpKINode>
+  <HelpKINode Title="ExecuteTest method" Url="html/Overload_CADSharpTools_PDM_Testing_TestsManager_ExecuteTest.htm" />
+  <HelpKINode Title="ExecuteTests method" Url="html/M_CADSharpTools_PDM_Testing_TestsManager_ExecuteTests.htm" />
   <HelpKINode Title="Extension class">
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_Commons_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Commons_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.BatchCheckIn method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm" />
   <HelpKINode Title="Extension.BatchCheckOutFiles method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm" />
@@ -225,20 +267,12 @@
   <HelpKINode Title="Extension.OpenDocument method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_OpenDocument.htm" />
   <HelpKINode Title="Extension.OpenDocumentAsync method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_OpenDocumentAsync.htm" />
   <HelpKINode Title="Extension.SetDataCardVariable method" Url="html/M_CADSharpTools_PDM_Extension_SetDataCardVariable.htm" />
+  <HelpKINode Title="Extension.SetVariableToDb method" Url="html/M_CADSharpTools_PDM_Extension_SetVariableToDb.htm" />
   <HelpKINode Title="Extension.ShowInBillOfMaterials method" Url="html/M_CADSharpTools_PDM_Extension_ShowInBillOfMaterials.htm" />
   <HelpKINode Title="Extension.TryGetFolder method" Url="html/M_CADSharpTools_PDM_Extension_TryGetFolder.htm" />
   <HelpKINode Title="Extension.TryGetObject(Of T) method" Url="html/M_CADSharpTools_PDM_Extension_TryGetObject__1.htm" />
   <HelpKINode Title="Extension.TryGetObject&lt;T&gt; method" Url="html/M_CADSharpTools_PDM_Extension_TryGetObject__1.htm" />
   <HelpKINode Title="Extension.UndoCheckOut method" Url="html/M_CADSharpTools_PDM_Extension_UndoCheckOut.htm" />
-  <HelpKINode Title="Extension.VaultVariable class">
-    <HelpKINode Title="Extension.VaultVariable Class" Url="html/T_CADSharpTools_PDM_Extension_VaultVariable.htm" />
-    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_PDM_Extension_VaultVariable__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Extension.VaultVariable.ConfigurationValueDictionary property" Url="html/P_CADSharpTools_PDM_Extension_VaultVariable_ConfigurationValueDictionary.htm" />
-  <HelpKINode Title="Extension.VaultVariable.FileId property" Url="html/P_CADSharpTools_PDM_Extension_VaultVariable_FileId.htm" />
-  <HelpKINode Title="Extension.VaultVariable.Name property" Url="html/P_CADSharpTools_PDM_Extension_VaultVariable_Name.htm" />
-  <HelpKINode Title="Extension.VaultVariable.VaultVariable constructor" Url="html/M_CADSharpTools_PDM_Extension_VaultVariable__ctor.htm" />
-  <HelpKINode Title="FileId property" Url="html/P_CADSharpTools_PDM_Extension_VaultVariable_FileId.htm" />
   <HelpKINode Title="FileMustBeCheckedOut enumeration member" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
   <HelpKINode Title="Foot enumeration member" Url="html/T_CADSharpTools_e_LengthUnits_e.htm" />
   <HelpKINode Title="FormatTimeFromMinutes method" Url="html/M_CADSharpTools_Commons_Extension_FormatTimeFromMinutes.htm" />
@@ -253,6 +287,7 @@
   </HelpKINode>
   <HelpKINode Title="GetAllUserGroups method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUserGroups.htm" />
   <HelpKINode Title="GetAllUsers method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUsers.htm" />
+  <HelpKINode Title="GetAllVisibleReferencedPartsFromAssembly method" Url="html/M_CADSharpTools_DocumentManager_swDocMan_GetAllVisibleReferencedPartsFromAssembly.htm" />
   <HelpKINode Title="GetAllWorkflows method" Url="html/M_CADSharpTools_PDM_Extension_GetAllWorkflows.htm" />
   <HelpKINode Title="GetAllWorkflowStates method" Url="html/M_CADSharpTools_PDM_Extension_GetAllWorkflowStates.htm" />
   <HelpKINode Title="GetAllWorkflowTransitions method" Url="html/M_CADSharpTools_PDM_Extension_GetAllWorkflowTransitions.htm" />
@@ -309,7 +344,10 @@
   <HelpKINode Title="GetVaultVariableNames method" Url="html/M_CADSharpTools_PDM_Extension_GetVaultVariableNames.htm" />
   <HelpKINode Title="GetWorkflowTransition method" Url="html/M_CADSharpTools_PDM_Testing_EdmObjectFactory_GetWorkflowTransition.htm" />
   <HelpKINode Title="HasLocalCopy method" Url="html/M_CADSharpTools_PDM_Extension_HasLocalCopy.htm" />
-  <HelpKINode Title="ID property" Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskInstance_ID.htm" />
+  <HelpKINode Title="ID property">
+    <HelpKINode Title="mEdmTaskInstance.ID Property " Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskInstance_ID.htm" />
+    <HelpKINode Title="swDocManVisibleReferencedDocument.ID Property " Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ID.htm" />
+  </HelpKINode>
   <HelpKINode Title="Inch enumeration member" Url="html/T_CADSharpTools_e_LengthUnits_e.htm" />
   <HelpKINode Title="InstanceGUID property" Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskInstance_InstanceGUID.htm" />
   <HelpKINode Title="IsEmpty property" Url="html/P_CADSharpTools_PDM_Testing_mEdmStrLst5_IsEmpty.htm" />
@@ -496,12 +534,12 @@
   <HelpKINode Title="MockEdmCmd method" Url="html/M_CADSharpTools_PDM_Testing_EdmObjectFactory_MockEdmCmd.htm" />
   <HelpKINode Title="MockEdmCmdDataFromFile method" Url="html/M_CADSharpTools_PDM_Testing_EdmObjectFactory_MockEdmCmdDataFromFile.htm" />
   <HelpKINode Title="MsgBox method" Url="html/M_CADSharpTools_PDM_Extension_MsgBox.htm" />
-  <HelpKINode Title="Name property" Url="html/P_CADSharpTools_PDM_Extension_VaultVariable_Name.htm" />
   <HelpKINode Title="NoLocalCopy enumeration member" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
   <HelpKINode Title="ObjectArrayToBStrWrapperArray method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_ObjectArrayToBStrWrapperArray.htm" />
   <HelpKINode Title="Open method" Url="html/M_CADSharpTools_PDM_Database_SQLHandler_Open.htm" />
   <HelpKINode Title="OpenDocument method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_OpenDocument.htm" />
   <HelpKINode Title="OpenDocumentAsync method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_OpenDocumentAsync.htm" />
+  <HelpKINode Title="PathName property" Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_PathName.htm" />
   <HelpKINode Title="PerformSQLTransaction method" Url="html/Overload_CADSharpTools_PDM_Database_SQLHandler_PerformSQLTransaction.htm" />
   <HelpKINode Title="Plastic enumeration member" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension_CostingType.htm" />
   <HelpKINode Title="ProcessId property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_ProcessId.htm" />
@@ -527,12 +565,19 @@
   <HelpKINode Title="Progress.Reset method" Url="html/M_CADSharpTools_Commons_Progress_Reset.htm" />
   <HelpKINode Title="Progress.Value property" Url="html/P_CADSharpTools_Commons_Progress_Value.htm" />
   <HelpKINode Title="ProgressColor property" Url="html/P_CADSharpTools_Commons_Progress_ProgressColor.htm" />
+  <HelpKINode Title="ReferencedConfigurationNames property" Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ReferencedConfigurationNames.htm" />
   <HelpKINode Title="RemoveDialog method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_RemoveDialog.htm" />
   <HelpKINode Title="Report method" Url="html/M_CADSharpTools_Commons_Progress_Report.htm" />
   <HelpKINode Title="Reset method" Url="html/M_CADSharpTools_Commons_Progress_Reset.htm" />
   <HelpKINode Title="RetryCount property" Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskProperties_RetryCount.htm" />
-  <HelpKINode Title="SaveToXML method" Url="html/M_CADSharpTools_Commons_CTSerialization_1_SaveToXML.htm" />
-  <HelpKINode Title="Serialize method" Url="html/M_CADSharpTools_Commons_CTSerialization_1_Serialize.htm" />
+  <HelpKINode Title="SaveToXML method">
+    <HelpKINode Title="CTContractSerialization(T).SaveToXML Method " Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_SaveToXML.htm" />
+    <HelpKINode Title="CTSerialization(T).SaveToXML Method " Url="html/M_CADSharpTools_Commons_CTSerialization_1_SaveToXML.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Serialize method">
+    <HelpKINode Title="CTContractSerialization(T).Serialize Method " Url="html/M_CADSharpTools_Commons_CTContractSerialization_1_Serialize.htm" />
+    <HelpKINode Title="CTSerialization(T).Serialize Method " Url="html/M_CADSharpTools_Commons_CTSerialization_1_Serialize.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetConnectionString method" Url="html/M_CADSharpTools_PDM_Database_SQLHandler_SetConnectionString.htm" />
   <HelpKINode Title="SetDataCardVariable method" Url="html/M_CADSharpTools_PDM_Extension_SetDataCardVariable.htm" />
   <HelpKINode Title="SetMenuCmds method" Url="html/M_CADSharpTools_PDM_Testing_mEdmTaskProperties_SetMenuCmds.htm" />
@@ -549,6 +594,7 @@
     <HelpKINode Title="mEdmTaskInstance.SetVar Method " Url="html/M_CADSharpTools_PDM_Testing_mEdmTaskInstance_SetVar.htm" />
     <HelpKINode Title="mEdmTaskProperties.SetVar Method " Url="html/M_CADSharpTools_PDM_Testing_mEdmTaskProperties_SetVar.htm" />
   </HelpKINode>
+  <HelpKINode Title="SetVariableToDb method" Url="html/M_CADSharpTools_PDM_Extension_SetVariableToDb.htm" />
   <HelpKINode Title="SheetMetal enumeration member" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension_CostingType.htm" />
   <HelpKINode Title="ShowInBillOfMaterials method" Url="html/M_CADSharpTools_PDM_Extension_ShowInBillOfMaterials.htm" />
   <HelpKINode Title="ShowView method">
@@ -562,14 +608,6 @@
   <HelpKINode Title="Singleton.Dispose method" Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_Dispose.htm" />
   <HelpKINode Title="Singleton.GetApplication method" Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_GetApplication.htm" />
   <HelpKINode Title="Singleton.GetApplicationAsync method" Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_GetApplicationAsync.htm" />
-  <HelpKINode Title="SOLIDWORKSDialogBoxSuppresser class">
-    <HelpKINode Title="SOLIDWORKSDialogBoxSuppresser Class" Url="html/T_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser.htm" />
-    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SOLIDWORKSDialogBoxSuppresser.SOLIDWORKSDialogBoxSuppresser constructor" Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser__ctor.htm" />
-  <HelpKINode Title="SOLIDWORKSDialogBoxSuppresser.Start method" Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser_Start.htm" />
-  <HelpKINode Title="SOLIDWORKSDialogBoxSuppresser.Stops method" Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser_Stops.htm" />
   <HelpKINode Title="SOLIDWORKSProcess property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_SOLIDWORKSProcess.htm" />
   <HelpKINode Title="SpecialFolder enumeration" Url="html/T_CADSharpTools_e_SpecialFolder.htm" />
   <HelpKINode Title="SQLHandler class">
@@ -585,12 +623,8 @@
   <HelpKINode Title="SQLHandler.PerformSQLTransaction method" Url="html/Overload_CADSharpTools_PDM_Database_SQLHandler_PerformSQLTransaction.htm" />
   <HelpKINode Title="SQLHandler.SetConnectionString method" Url="html/M_CADSharpTools_PDM_Database_SQLHandler_SetConnectionString.htm" />
   <HelpKINode Title="SQLHandlerConnectionStringNull enumeration member" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
-  <HelpKINode Title="Start method">
-    <HelpKINode Title="SOLIDWORKSDialogBoxSuppresser.Start Method " Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser_Start.htm" />
-    <HelpKINode Title="swDialogWatcher.Start Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Start.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Start method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Start.htm" />
   <HelpKINode Title="Stop method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Stop.htm" />
-  <HelpKINode Title="Stops method" Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser_Stops.htm" />
   <HelpKINode Title="Success enumeration member" Url="html/T_CADSharpTools_e_GetDataCardVariableReturn_e.htm" />
   <HelpKINode Title="SupportEmail property" Url="html/P_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1_SupportEmail.htm" />
   <HelpKINode Title="swDialog class">
@@ -632,6 +666,25 @@
   <HelpKINode Title="swDialogWatcher.Start method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Start.htm" />
   <HelpKINode Title="swDialogWatcher.Stop method" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Stop.htm" />
   <HelpKINode Title="swDialogWatcher.swDialogWatcher constructor" Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher__ctor.htm" />
+  <HelpKINode Title="swDocMan class">
+    <HelpKINode Title="swDocMan Class" Url="html/T_CADSharpTools_DocumentManager_swDocMan.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_DocumentManager_swDocMan__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_DocumentManager_swDocMan.htm" />
+  </HelpKINode>
+  <HelpKINode Title="swDocMan.GetAllVisibleReferencedPartsFromAssembly method" Url="html/M_CADSharpTools_DocumentManager_swDocMan_GetAllVisibleReferencedPartsFromAssembly.htm" />
+  <HelpKINode Title="swDocMan.swDocMan constructor" Url="html/M_CADSharpTools_DocumentManager_swDocMan__ctor.htm" />
+  <HelpKINode Title="swDocManVisibleReferencedDocument class">
+    <HelpKINode Title="swDocManVisibleReferencedDocument Class" Url="html/T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm" />
+  </HelpKINode>
+  <HelpKINode Title="swDocManVisibleReferencedDocument.AddConfigurationName method" Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_AddConfigurationName.htm" />
+  <HelpKINode Title="swDocManVisibleReferencedDocument.ID property" Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ID.htm" />
+  <HelpKINode Title="swDocManVisibleReferencedDocument.PathName property" Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_PathName.htm" />
+  <HelpKINode Title="swDocManVisibleReferencedDocument.ReferencedConfigurationNames property" Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ReferencedConfigurationNames.htm" />
+  <HelpKINode Title="swDocManVisibleReferencedDocument.swDocManVisibleReferencedDocument constructor" Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument__ctor.htm" />
+  <HelpKINode Title="swDocManVisibleReferencedDocument.ToString method" Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ToString.htm" />
   <HelpKINode Title="TaskFlags property" Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskProperties_TaskFlags.htm" />
   <HelpKINode Title="TaskGUID property">
     <HelpKINode Title="mEdmTaskInstance.TaskGUID Property " Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskInstance_TaskGUID.htm" />
@@ -642,12 +695,19 @@
     <HelpKINode Title="mEdmTaskInstance.TaskName Property " Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskInstance_TaskName.htm" />
     <HelpKINode Title="mEdmTaskProperties.TaskName Property " Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskProperties_TaskName.htm" />
   </HelpKINode>
+  <HelpKINode Title="TestsManager class">
+    <HelpKINode Title="TestsManager Class" Url="html/T_CADSharpTools_PDM_Testing_TestsManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Testing_TestsManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TestsManager.ExecuteTest method" Url="html/Overload_CADSharpTools_PDM_Testing_TestsManager_ExecuteTest.htm" />
+  <HelpKINode Title="TestsManager.ExecuteTests method" Url="html/M_CADSharpTools_PDM_Testing_TestsManager_ExecuteTests.htm" />
   <HelpKINode Title="TimeoutInSeconds property" Url="html/P_CADSharpTools_PDM_Testing_mEdmTaskProperties_TimeoutInSeconds.htm" />
   <HelpKINode Title="TimeStamp property">
     <HelpKINode Title="MethodReturn(T).TimeStamp Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_TimeStamp.htm" />
     <HelpKINode Title="MethodReturn.TimeStamp Property " Url="html/P_CADSharpTools_Commons_MethodReturn_TimeStamp.htm" />
   </HelpKINode>
   <HelpKINode Title="Title property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_Title.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ToString.htm" />
   <HelpKINode Title="TryGetFolder method" Url="html/M_CADSharpTools_PDM_Extension_TryGetFolder.htm" />
   <HelpKINode Title="TryGetObject(Of T) method" Url="html/M_CADSharpTools_PDM_Extension_TryGetObject__1.htm" />
   <HelpKINode Title="TryGetObject&lt;T&gt; method" Url="html/M_CADSharpTools_PDM_Extension_TryGetObject__1.htm" />
@@ -665,9 +725,6 @@
     <HelpKINode Title="Progress.Value Property " Url="html/P_CADSharpTools_Commons_Progress_Value.htm" />
   </HelpKINode>
   <HelpKINode Title="VariableNotFound enumeration member" Url="html/T_CADSharpTools_e_GetDataCardVariableReturn_e.htm" />
-  <HelpKINode Title="VaultVariable class">
-    <HelpKINode Title="properties" Url="html/Properties_T_CADSharpTools_PDM_Extension_VaultVariable.htm" />
-  </HelpKINode>
   <HelpKINode Title="version">
     <HelpKINode Title="history" Url="html/65a7b4fe-8d5d-411c-9702-d62f211fabaa.htm" />
   </HelpKINode>
