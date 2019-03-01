@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\CADSharpTools.PDM.Documentation.shfbproj" started="2/25/2019 2:15:51 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\CADSharpTools.PDM.Documentation.shfbproj" started="2/28/2019 4:31:00 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -18,6 +18,8 @@ Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
     Ignoring read-only/hidden folder P:\CADSharpTools.PDM Docs Hosted on GitHub\.git
+    Ignoring folder &#39;P:\CADSharpTools.PDM Docs Hosted on GitHub\html&#39;: The process cannot access the file &#39;M_CADSharpTools_PDM_Testing_EdmObjectFactory_GetUserObject.htm&#39; because it is being used by another process.
+    Ignoring folder &#39;P:\CADSharpTools.PDM Docs Hosted on GitHub\toc&#39;: The process cannot access the file &#39;Methods_T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.xml&#39; because it is being used by another process.
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -31,7 +33,7 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0110
+</plugIn>    Last step completed in 00:00:00.0299
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -52,7 +54,7 @@ Adding ignored assembly names to assembly resolver configuration:
     SolidWorks.Interop.swdocumentmgr
     SolidWorks.Interop.swpublished
 </plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 2/25/2019 2:15:53 PM.
+Build started 2/28/2019 4:31:05 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -63,19 +65,19 @@ GenerateRefInfo:
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
 MRefBuilder : warning : Ignoring unresolved assembly reference: System.ObjectModel (System.ObjectModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Prism [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateRefInfo.proj]
-  Wrote information on 12 namespaces, 36 types, and 253 members
+  Wrote information on 12 namespaces, 37 types, and 264 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:00.9169
+    Last step completed in 00:00:02.3177
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 2/25/2019 2:15:54 PM.
+Build started 2/28/2019 4:31:07 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
@@ -105,11 +107,11 @@ TransformManifest:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:00.6214
+    Last step completed in 00:00:01.0043
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0249
+    Last step completed in 00:00:00.0399
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -129,21 +131,21 @@ Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0189
+    Last step completed in 00:00:00.0219
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\icons\Help.png -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 2/25/2019 2:15:55 PM.
+Build started 2/28/2019 4:31:08 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -152,12 +154,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3048
+    Last step completed in 00:00:00.4049
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2264
+    Last step completed in 00:00:00.3543
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -165,12 +167,12 @@ P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0114
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 2/25/2019 2:15:55 PM.
+Build started 2/28/2019 4:31:09 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -254,85 +256,85 @@ BuildTopics:
   ResolveReferenceLinksComponent: Loading None reference link type targets
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.CSharp.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.VisualBasic.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.Win32.SafeHandles.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.Win32.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.CodeDom.Compiler.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.Win32.SafeHandles.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Generic.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.ObjectModel.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Specialized.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.Design.Serialization.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.Design.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Data.SqlClient.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Data.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.CodeDom.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Diagnostics.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Drawing.Design.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.Design.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Globalization.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.Compression.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.Ports.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Security.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Sockets.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Data.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Reflection.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Resources.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.CompilerServices.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.ComTypes.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Media.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Cache.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Configuration.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Security.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Reflection.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Sockets.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Mail.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Generic.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Mime.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.NetworkInformation.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Resources.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.WebSockets.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.ComTypes.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.CompilerServices.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Mail.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Configuration.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Formatters.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.X509Certificates.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Json.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceModel.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Claims.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.WebControls.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.AccessControl.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.Tasks.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Configuration.Provider.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Configuration.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.Configuration.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Automation.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Permissions.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceProcess.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Markup.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Controls.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.RegularExpressions.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Timers.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.Configuration.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Mime.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.NetworkInformation.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Policy.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceModel.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceProcess.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Principal.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.RegularExpressions.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Configuration.Provider.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.WebControls.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Claims.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Configuration.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.X509Certificates.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Controls.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.Tasks.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Markup.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Timers.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Xml.Schema.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Xml.Serialization.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Xml.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Automation.xml
   ResolveReferenceLinksComponent: Loading Local reference link type targets
   ResolveReferenceLinksComponent: Indexing targets in P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\reflection.xml
-  ResolveReferenceLinksComponent: 74044 total reference link targets
+  ResolveReferenceLinksComponent: 74057 total reference link targets
   SwitchComponent: Loading components for API case
   CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Transforms\skeleton.xml&#39;.
   CopyFromFileComponent: Loaded 1 copy commands
   CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
   CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39; in &#39;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working&#39;
-  CopyFromIndexComponent: Indexed 74044 elements
+  CopyFromIndexComponent: Indexed 74057 elements
   ForEachComponent: Loading subcomponents.
   ForEachComponent: Loaded 1 subcomponents.
   ForEachComponent: Loading subcomponents.
@@ -350,7 +352,7 @@ BuildTopics:
   SyntaxComponent: Loaded 2 syntax generators.
   CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5&#39;
   CopyFromIndexComponent: Searching for files that match &#39;CADSharpTools.PDM.xml&#39; in &#39;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working&#39;
-  CopyFromIndexComponent: Indexed 148748 elements
+  CopyFromIndexComponent: Indexed 148767 elements
   ForEachComponent: Loading subcomponents.
   ForEachComponent: Loaded 2 subcomponents.
   ShowMissingComponent: [Sandcastle Help File Builder and Tools, version 2018.7.8.0]
@@ -422,7 +424,7 @@ BuildTopics:
   SharedContentComponent: Found 1 files in XAML.xml.
   SharedContentComponent: Loaded 669 shared content items.
   ResolveConceptualLinksComponent: Collected 1 targets directories.
-  ResolveReferenceLinksComponent: 74044 total reference link targets
+  ResolveReferenceLinksComponent: 74057 total reference link targets
   BuildAssemblerCore: Building topic d594e155-da23-4f32-85ec-b90466286d00
   BuildAssemblerCore: Building topic 65a7b4fe-8d5d-411c-9702-d62f211fabaa
   BuildAssemblerCore: Building topic N:CADSharpTools.Commons
@@ -508,6 +510,9 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Comm
   BuildAssemblerCore: Building topic P:CADSharpTools.Commons.Progress.Value
   BuildAssemblerCore: Building topic N:CADSharpTools.Diagnostics
   BuildAssemblerCore: Building topic T:CADSharpTools.Diagnostics.Console
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Diagnostics.Console
+  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Console.AllocateConsole
+  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Console.FreeConsole
   BuildAssemblerCore: Building topic N:CADSharpTools.DocumentManager
   BuildAssemblerCore: Building topic T:CADSharpTools.DocumentManager.swDocMan
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.DocumentManager.swDocMan
@@ -679,10 +684,48 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.
   BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel
   BuildAssemblerCore: Building topic Overload:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.#ctor(System.String)
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.CloseCommand
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.CloseCommand] Unknown reference link target &#39;T:Prism.Commands.DelegateCommand&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.Message
   BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ProgramFullName
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView(System.Reflection.Assembly,System.Boolean)
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView(System.String,System.Boolean)
+  BuildAssemblerCore: Building topic N:CADSharpTools.PDM.SOLIDWORKS.UIAutomation
+  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.#ctor(System.String,System.String[],CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButtonAction_e,CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogCompareMethod_e)
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.AddButton(CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButton)
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.Buttons
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.Captions
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.CompareMethod
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.CreateOpenFileDialog
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.CreateOptionsDialog
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.CreateSystemLowMemoryDialog
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.IsEqual(CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog)
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.Title
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog.UserAction
+  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButton
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButton
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButton.#ctor
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButton.AssociatedAction
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButton.AssociatedAutomationElement
+  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogButtonAction_e
+  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogCompareMethod_e
+  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.#ctor(System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.AddDialog(CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog)
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.Dialogs
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.GenericAction
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.IsIdle
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.ProcessId
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.RemoveDialog(CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialog)
+  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.SOLIDWORKSProcess
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.Start
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.SOLIDWORKS.UIAutomation.swDialogWatcher.Stop
   BuildAssemblerCore: Building topic N:CADSharpTools.PDM.Testing
 BuildAssembler : warning : ResolveReferenceLinksComponent: [N:CADSharpTools.PDM.Testing] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmCmdNode&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.EdmObjectFactory
@@ -769,7 +812,6 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetStatus] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetValEx(System.String)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetValEx(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetValExExtended(System.String,System.Func{System.Object,System.String})
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVar(System.Object)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVar(System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetVar(System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVarExExtended
@@ -873,6 +915,10 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLI
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetAssemblyPartsPathsAndConfigurations(SolidWorks.Interop.sldworks.ModelDoc2)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.ModelDoc2&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetAssemblyPartsPathsAndConfigurations(SolidWorks.Interop.sldworks.ModelDoc2)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.ModelDoc2&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Extension.GetMaterialNamesFromDataBase(System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Extension.GetModelMass(SolidWorks.Interop.sldworks.ModelDoc2)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetModelMass(SolidWorks.Interop.sldworks.ModelDoc2)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.ModelDoc2&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetModelMass(SolidWorks.Interop.sldworks.ModelDoc2)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swUnitsMassPropMass_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetModelMass(SolidWorks.Interop.sldworks.ModelDoc2)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.ModelDoc2&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Extension.GetParentSheet(SolidWorks.Interop.sldworks.Feature)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetParentSheet(SolidWorks.Interop.sldworks.Feature)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.Feature&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.GetParentSheet(SolidWorks.Interop.sldworks.Feature)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.Sheet&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
@@ -903,7 +949,12 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLI
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Extension.OpenDocumentAsync(SolidWorks.Interop.sldworks.SldWorks,System.String)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.SldWorks&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.Measure
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.Measure
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(CADSharpTools_e.LengthUnits_e,CADSharpTools_e.LengthUnits_e,System.Double)
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swLengthUnit_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swLengthUnit_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swUnitsMassPropMass_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swUnitsMassPropMass_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.Singleton
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.Singleton
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Singleton.Dispose
@@ -924,56 +975,24 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLI
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Costing.Extension.GetMaterialClassName(SolidWorks.Interop.sldcostingapi.CostAnalysisMachining,System.String)] Unknown reference link target &#39;T:SolidWorks.Interop.sldcostingapi.CostAnalysisMachining&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Costing.Extension.GetMaterialClassName(SolidWorks.Interop.sldcostingapi.CostAnalysisMachining,System.String)] Unknown reference link target &#39;T:SolidWorks.Interop.sldcostingapi.CostAnalysisMachining&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.Costing.Extension.CostingType
-  BuildAssemblerCore: Building topic N:CADSharpTools.SOLIDWORKS.UIAutomation
-  BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.#ctor
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.Buttons
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.Captions
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.CreateOpenFileDialog
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.CreateOptionsDialog
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.IsEqual(CADSharpTools.SOLIDWORKS.UIAutomation.swDialog)
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.Title
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialog.UserAction
-  BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButton
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButton
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButton.#ctor
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButton.AssociatedAction
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButton.AssociatedAutomationElement
-  BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogButtonAction_e
-  BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.#ctor(System.Int32)
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.AddDialog(CADSharpTools.SOLIDWORKS.UIAutomation.swDialog)
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.Dialogs
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.GenericAction
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.IsIdle
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.ProcessId
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.RemoveDialog(CADSharpTools.SOLIDWORKS.UIAutomation.swDialog)
-  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.SOLIDWORKSProcess
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.Start
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.Stop
   BuildAssemblerCore: Building topic N:CADSharpTools_e
   BuildAssemblerCore: Building topic T:CADSharpTools_e.CADSharpToolsPDMExceptionMessages_e
   BuildAssemblerCore: Building topic T:CADSharpTools_e.GetDataCardVariableReturn_e
   BuildAssemblerCore: Building topic T:CADSharpTools_e.LengthUnits_e
   BuildAssemblerCore: Building topic T:CADSharpTools_e.SpecialFolder
   BuildAssemblerCore: Building topic R:Project_CADSharpTools.PDM.Documentation
-  Processed 324 topic(s)
-  215 warning(s)
+  Processed 333 topic(s)
+  223 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 12 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:08.6242
+    Last step completed in 00:00:15.2117
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0339
+    Last step completed in 00:00:00.0578
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -985,11 +1004,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website
-Processed 324 HTML files
+Processed 333 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\WebKI.xml
 Saving website table of contents to P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\WebTOC.xml
-    Last step completed in 00:00:01.8301
+    Last step completed in 00:00:02.0086
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -1071,33 +1090,33 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.3871
+    Last step completed in 00:00:00.5303
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:01.3314
+</plugIn>    Last step completed in 00:00:00.8986
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 507 files for the website content
-    Last step completed in 00:00:02.0854
+Copied 518 files for the website content
+    Last step completed in 00:00:04.2152
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.6732
+    Last step completed in 00:00:00.9350
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2/25/2019 2:16:10 PM.  Total time: 00:00:19.2767
+Build completed successfully at 2/28/2019 4:31:32 PM.  Total time: 00:00:32.2235
 
 </buildStep>
 </shfbBuild>
