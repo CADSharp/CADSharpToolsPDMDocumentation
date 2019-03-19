@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\CADSharpTools.PDM.Documentation.shfbproj" started="3/3/2019 5:16:47 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\CADSharpTools.PDM.Documentation.shfbproj" started="3/18/2019 8:19:43 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -31,10 +31,11 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0070
+</plugIn>    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
+SHFB: Warning BE0008: Namespace &#39;N:CADSharpTools.PDM.MVVM.ViewModels&#39; excluded via namespace comments conflicted with API filter setting.  Exclusion ignored.
     Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
@@ -52,7 +53,7 @@ Adding ignored assembly names to assembly resolver configuration:
     SolidWorks.Interop.swdocumentmgr
     SolidWorks.Interop.swpublished
 </plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 3/3/2019 5:16:49 PM.
+Build started 3/18/2019 8:19:46 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -63,19 +64,19 @@ GenerateRefInfo:
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
 MRefBuilder : warning : Ignoring unresolved assembly reference: System.ObjectModel (System.ObjectModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Prism [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateRefInfo.proj]
-  Wrote information on 13 namespaces, 39 types, and 273 members
+  Wrote information on 15 namespaces, 45 types, and 308 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:00.9704
+    Last step completed in 00:00:00.9993
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 3/3/2019 5:16:50 PM.
+Build started 3/18/2019 8:19:47 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
@@ -87,29 +88,30 @@ TransformManifest:
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
-    Unique name M_CADSharpTools_Commons_MethodReturn__ctor_1 generated for M:CADSharpTools.Commons.MethodReturn.#ctor(System.Exception,System.Boolean)
-    Unique name M_CADSharpTools_Commons_MethodReturn__ctor_2 generated for M:CADSharpTools.Commons.MethodReturn.#ctor(System.String)
-    Unique name M_CADSharpTools_Commons_MethodReturn__ctor_3 generated for M:CADSharpTools.Commons.MethodReturn.#ctor(System.String,System.Boolean)
-    Unique name M_CADSharpTools_Commons_MethodReturn_1__ctor_1 generated for M:CADSharpTools.Commons.MethodReturn`1.#ctor(`0,System.Exception,System.Boolean)
-    Unique name M_CADSharpTools_Commons_MethodReturn_1__ctor_2 generated for M:CADSharpTools.Commons.MethodReturn`1.#ctor(`0,System.String)
-    Unique name M_CADSharpTools_Commons_MethodReturn_2__ctor_1 generated for M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0,System.Boolean,`1)
-    Unique name M_CADSharpTools_Commons_MethodReturn_2__ctor_2 generated for M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0,System.Exception,System.Boolean,`1)
-    Unique name M_CADSharpTools_Commons_MethodReturn_2__ctor_3 generated for M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0,System.String)
+    Unique name M_CADSharpTools_Core_MethodReturn__ctor_1 generated for M:CADSharpTools.Core.MethodReturn.#ctor(System.Exception,System.Boolean)
+    Unique name M_CADSharpTools_Core_MethodReturn__ctor_2 generated for M:CADSharpTools.Core.MethodReturn.#ctor(System.String)
+    Unique name M_CADSharpTools_Core_MethodReturn__ctor_3 generated for M:CADSharpTools.Core.MethodReturn.#ctor(System.String,System.Boolean)
+    Unique name M_CADSharpTools_Core_MethodReturn_1__ctor_1 generated for M:CADSharpTools.Core.MethodReturn`1.#ctor(`0,System.Exception,System.Boolean)
+    Unique name M_CADSharpTools_Core_MethodReturn_1__ctor_2 generated for M:CADSharpTools.Core.MethodReturn`1.#ctor(`0,System.String)
+    Unique name M_CADSharpTools_Core_MethodReturn_2__ctor_1 generated for M:CADSharpTools.Core.MethodReturn`2.#ctor(`0,System.Boolean,`1)
+    Unique name M_CADSharpTools_Core_MethodReturn_2__ctor_2 generated for M:CADSharpTools.Core.MethodReturn`2.#ctor(`0,System.Exception,System.Boolean,`1)
+    Unique name M_CADSharpTools_Core_MethodReturn_2__ctor_3 generated for M:CADSharpTools.Core.MethodReturn`2.#ctor(`0,System.String)
+    Unique name M_CADSharpTools_MVVM_ViewModels_MessageViewModel_ShowView_1 generated for M:CADSharpTools.MVVM.ViewModels.MessageViewModel.ShowView(System.String,System.Boolean)
     Unique name M_CADSharpTools_PDM_Extension_BatchCheckIn_1 generated for M:CADSharpTools.PDM.Extension.BatchCheckIn(EPDM.Interop.epdm.IEdmVault5,System.String[],System.Int32)
     Unique name M_CADSharpTools_PDM_Extension_BatchCheckOutFiles_1 generated for M:CADSharpTools.PDM.Extension.BatchCheckOutFiles(EPDM.Interop.epdm.IEdmVault5,System.String[],System.Int32)
-    Unique name M_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel_ShowView_1 generated for M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView(System.String,System.Boolean)
-    Unique name M_CADSharpTools_PDM_Testing_TestsManager_ExecuteTest_1 generated for M:CADSharpTools.PDM.Testing.TestsManager.ExecuteTest(System.Action{System.String},System.String,System.String)
-    Unique name M_CADSharpTools_PDM_Testing_TestsManager_ExecuteTest_2 generated for M:CADSharpTools.PDM.Testing.TestsManager.ExecuteTest(System.Func{System.String,System.String[]},System.String)
+    Unique name M_CADSharpTools_SOLIDWORKS_Application_ConvertSWRevisionNumberToYear_1 generated for M:CADSharpTools.SOLIDWORKS.Application.ConvertSWRevisionNumberToYear(System.String)
+    Unique name M_CADSharpTools_Testing_Tools_ExecuteTest_1 generated for M:CADSharpTools.Testing.Tools.ExecuteTest(System.Action{System.String},System.String,System.String)
+    Unique name M_CADSharpTools_Testing_Tools_ExecuteTest_2 generated for M:CADSharpTools.Testing.Tools.ExecuteTest(System.Func{System.String,System.String[]},System.String)
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:00.5565
+    Last step completed in 00:00:00.6203
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0249
+    Last step completed in 00:00:00.0409
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -122,19 +124,19 @@ Generating conceptual topic files
     C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\Content\Welcome.aml -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\ddueXml\d594e155-da23-4f32-85ec-b90466286d00.xml
     Parsing topic file &#39;C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\Content\VersionHistory\VersionHistory.aml&#39;
     C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\Content\VersionHistory\VersionHistory.aml -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\ddueXml\65a7b4fe-8d5d-411c-9702-d62f211fabaa.xml
-    Last step completed in 00:00:00.0229
+    Last step completed in 00:00:00.0309
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0199
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\source\CADSharpTools.PDM\CADSharpTools.PDM.Documentation\icons\Help.png -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -143,7 +145,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 3/3/2019 5:16:51 PM.
+Build started 3/18/2019 8:19:48 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -152,12 +154,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2503
+    Last step completed in 00:00:00.2982
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1476
+    Last step completed in 00:00:00.4179
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -165,12 +167,12 @@ P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0160
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 3/3/2019 5:16:51 PM.
+Build started 3/18/2019 8:19:49 PM.
 Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -252,87 +254,96 @@ BuildTopics:
   ResolveArtLinksComponent: Indexed 0 art targets.
   ResolveConceptualLinksComponent: Collected 1 targets directories.
   ResolveReferenceLinksComponent: Loading None reference link type targets
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Accessibility.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.CSharp.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.VisualBasic.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.Win32.SafeHandles.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.Win32.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.CodeDom.Compiler.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.ObjectModel.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Specialized.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.Design.Serialization.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Configuration.Provider.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\Microsoft.Win32.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Data.SqlClient.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Data.SqlClient.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Data.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Diagnostics.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.CodeDom.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.Design.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Diagnostics.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Drawing.Design.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Globalization.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.Compression.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Specialized.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Generic.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.Compression.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Drawing.Printing.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.Ports.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.IO.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Media.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Cache.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Configuration.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Mail.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Drawing.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.NetworkInformation.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Security.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.WebSockets.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Reflection.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Resources.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Mime.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Reflection.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.Sockets.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.NetworkInformation.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Formatters.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Resources.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Media.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.CompilerServices.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Formatters.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.Json.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.AccessControl.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.X509Certificates.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Policy.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.ComTypes.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceModel.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Principal.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.Configuration.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.Configuration.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.WebControls.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Net.WebSockets.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.Tasks.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Claims.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Automation.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.X509Certificates.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceModel.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.ComTypes.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.RegularExpressions.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.AccessControl.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.WebControls.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Cryptography.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.Tasks.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Controls.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Permissions.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Authentication.ExtendedProtection.Configuration.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.ComponentModel.Com2Interop.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.Design.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.Layout.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.PropertyGridInternal.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceProcess.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Timers.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Forms.VisualStyles.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Permissions.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Markup.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Timers.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Policy.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.Principal.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Xml.Schema.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ServiceProcess.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.RegularExpressions.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Xml.Serialization.xml
   ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Xml.xml
-  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.UI.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Web.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Windows.Automation.xml
   ResolveReferenceLinksComponent: Loading Local reference link type targets
   ResolveReferenceLinksComponent: Indexing targets in P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\reflection.xml
-  ResolveReferenceLinksComponent: 74071 total reference link targets
+  ResolveReferenceLinksComponent: 82909 total reference link targets
   SwitchComponent: Loading components for API case
   CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Transforms\skeleton.xml&#39;.
   CopyFromFileComponent: Loaded 1 copy commands
   CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
   CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39; in &#39;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working&#39;
-  CopyFromIndexComponent: Indexed 74071 elements
+  CopyFromIndexComponent: Indexed 82909 elements
   ForEachComponent: Loading subcomponents.
   ForEachComponent: Loaded 1 subcomponents.
   ForEachComponent: Loading subcomponents.
@@ -350,7 +361,7 @@ BuildTopics:
   SyntaxComponent: Loaded 2 syntax generators.
   CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5&#39;
   CopyFromIndexComponent: Searching for files that match &#39;CADSharpTools.PDM.xml&#39; in &#39;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working&#39;
-  CopyFromIndexComponent: Indexed 148779 elements
+  CopyFromIndexComponent: Indexed 148828 elements
   ForEachComponent: Loading subcomponents.
   ForEachComponent: Loaded 2 subcomponents.
   ShowMissingComponent: [Sandcastle Help File Builder and Tools, version 2018.7.8.0]
@@ -422,100 +433,110 @@ BuildTopics:
   SharedContentComponent: Found 1 files in XAML.xml.
   SharedContentComponent: Loaded 669 shared content items.
   ResolveConceptualLinksComponent: Collected 1 targets directories.
-  ResolveReferenceLinksComponent: 74071 total reference link targets
+  ResolveReferenceLinksComponent: 82909 total reference link targets
   BuildAssemblerCore: Building topic d594e155-da23-4f32-85ec-b90466286d00
   BuildAssemblerCore: Building topic 65a7b4fe-8d5d-411c-9702-d62f211fabaa
-  BuildAssemblerCore: Building topic N:CADSharpTools.Commons
-BuildAssembler : warning : ResolveReferenceLinksComponent: [N:CADSharpTools.Commons] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.CADSharpToolsPDMException
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Commons.CADSharpToolsPDMException
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.CADSharpToolsPDMException.MessageEnum
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.CTContractSerialization`1
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Commons.CTContractSerialization`1
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTContractSerialization`1.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTContractSerialization`1.Deserialize(System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTContractSerialization`1.SaveToXML(`0,System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTContractSerialization`1.Serialize(`0)
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.CTSerialization`1
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Commons.CTSerialization`1
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTSerialization`1.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTSerialization`1.Deserialize(System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTSerialization`1.SaveToXML(`0,System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.CTSerialization`1.Serialize(`0)
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.Extension
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Commons.Extension
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.BrowseToFile(System.String,System.String,System.String,System.Boolean)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.BrowseToFolder(System.String,System.Boolean)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.EvaluateDirectory(System.String,CADSharpTools_e.SpecialFolder)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.FormatTimeFromMinutes(System.Double)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.GetAssemblyLocation(System.Reflection.Assembly)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.GetAssemblyNameAndVersion(System.Reflection.Assembly)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.GetFilesFromDirectory(System.String,System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Extension.GetFilesFromDirectoryAsync(System.String,System.String)
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.MethodReturn
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Commons.MethodReturn
-  BuildAssemblerCore: Building topic Overload:CADSharpTools.Commons.MethodReturn.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn.#ctor(System.Exception,System.Boolean)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn.#ctor(System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn.#ctor(System.String,System.Boolean)
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn.Error
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn.Exception
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn.IsError
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn.TimeStamp
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn.Warning
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.MethodReturn`1
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Commons.MethodReturn`1
-  BuildAssemblerCore: Building topic Overload:CADSharpTools.Commons.MethodReturn`1.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`1.#ctor(`0,System.Boolean,System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`1.#ctor(`0,System.Exception,System.Boolean)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`1.#ctor(`0,System.String)
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`1.Error
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`1.Exception
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`1.IsError
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`1.TimeStamp
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`1.Value
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`1.Warning
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.MethodReturn`2
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Commons.MethodReturn`2] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Commons.MethodReturn`2
-  BuildAssemblerCore: Building topic Overload:CADSharpTools.Commons.MethodReturn`2.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0,System.Boolean,`1)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0,System.Exception,System.Boolean,`1)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.MethodReturn`2.#ctor(`0,System.String)
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`2.EnumValue
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`2.Error
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`2.Exception
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`2.IsError
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`2.Value
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.MethodReturn`2.Warning
-  BuildAssemblerCore: Building topic T:CADSharpTools.Commons.Progress
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Commons.Progress] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Commons.Progress] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Commons.Progress
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Commons.Progress
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Progress.#ctor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Progress.Cancel
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Progress.Complete
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Progress.CompleteWithError(System.String)
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.Progress.IsIndeterminate
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.Progress.Max
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.Progress.Message
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.Progress.ProgressColor
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Progress.Report(System.Int32)
-  BuildAssemblerCore: Building topic M:CADSharpTools.Commons.Progress.Reset
-  BuildAssemblerCore: Building topic P:CADSharpTools.Commons.Progress.Value
+  BuildAssemblerCore: Building topic N:CADSharpTools.Core
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.busyIndicatorCallBack
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Core.busyIndicatorCallBack] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Core.busyIndicatorCallBack
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Core.busyIndicatorCallBack
+  BuildAssemblerCore: Building topic Events.T:CADSharpTools.Core.busyIndicatorCallBack
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.busyIndicatorCallBack.Cancel
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorCallBack.CancelRequestThrown
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorCallBack.Count
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorCallBack.Current
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.busyIndicatorCallBack.Finish
+  BuildAssemblerCore: Building topic E:CADSharpTools.Core.busyIndicatorCallBack.Finished
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorCallBack.IsIndeterminate
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorCallBack.Message
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.busyIndicatorCallBackFinishEventArgs
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Core.busyIndicatorCallBackFinishEventArgs
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.busyIndicatorCallBackFinishEventArgs.#ctor
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorCallBackFinishEventArgs.State
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.busyIndicatorCallBackState_e
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.busyIndicatorInvoker
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Core.busyIndicatorInvoker
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Core.busyIndicatorInvoker
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.busyIndicatorInvoker.#ctor(CADSharpTools.Core.busyIndicatorCallBack)
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.busyIndicatorInvoker.Callback
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.busyIndicatorInvoker.InvokeAsync(System.Action)
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.Extension
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Core.Extension
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.BrowseToFile(System.String,System.String,System.String,System.Boolean)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.BrowseToFolder(System.String,System.Boolean)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.EvaluateDirectory(System.String,CADSharpTools_e.SpecialFolder)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.FormatTimeFromMinutes(System.Double)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.GetAssemblyLocation(System.Reflection.Assembly)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.GetAssemblyNameAndVersion(System.Reflection.Assembly)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.GetFilesFromDirectory(System.String,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.Extension.GetFilesFromDirectoryAsync(System.String,System.String)
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.MethodReturn
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Core.MethodReturn
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.Core.MethodReturn.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn.#ctor(System.Exception,System.Boolean)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn.#ctor(System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn.#ctor(System.String,System.Boolean)
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn.Error
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn.Exception
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn.IsError
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn.TimeStamp
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn.Warning
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.MethodReturn`1
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Core.MethodReturn`1
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.Core.MethodReturn`1.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`1.#ctor(`0,System.Boolean,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`1.#ctor(`0,System.Exception,System.Boolean)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`1.#ctor(`0,System.String)
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`1.Error
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`1.Exception
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`1.IsError
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`1.TimeStamp
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`1.Value
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`1.Warning
+  BuildAssemblerCore: Building topic T:CADSharpTools.Core.MethodReturn`2
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Core.MethodReturn`2] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Core.MethodReturn`2
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.Core.MethodReturn`2.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`2.#ctor(`0)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`2.#ctor(`0,System.Boolean,`1)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`2.#ctor(`0,System.Exception,System.Boolean,`1)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Core.MethodReturn`2.#ctor(`0,System.String)
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`2.EnumValue
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`2.Error
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`2.Exception
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`2.IsError
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`2.Value
+  BuildAssemblerCore: Building topic P:CADSharpTools.Core.MethodReturn`2.Warning
+  BuildAssemblerCore: Building topic N:CADSharpTools.Database
+  BuildAssemblerCore: Building topic T:CADSharpTools.Database.SQLHandler
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Database.SQLHandler
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Database.SQLHandler
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.Database.SQLHandler.PerformSQLTransaction
+  BuildAssemblerCore: Building topic M:CADSharpTools.Database.SQLHandler.Close
+  BuildAssemblerCore: Building topic P:CADSharpTools.Database.SQLHandler.Connection
+  BuildAssemblerCore: Building topic P:CADSharpTools.Database.SQLHandler.ConnectionString
+  BuildAssemblerCore: Building topic M:CADSharpTools.Database.SQLHandler.Dispose
+  BuildAssemblerCore: Building topic M:CADSharpTools.Database.SQLHandler.Open
+  BuildAssemblerCore: Building topic M:CADSharpTools.Database.SQLHandler.PerformSQLTransaction(System.Func{System.Data.SqlClient.SqlConnection,CADSharpTools.Core.MethodReturn{System.Boolean}})
+  BuildAssemblerCore: Building topic M:CADSharpTools.Database.SQLHandler.PerformSQLTransaction``1(System.Func{System.Data.SqlClient.SqlConnection,CADSharpTools.Core.MethodReturn{``0}})
+  BuildAssemblerCore: Building topic M:CADSharpTools.Database.SQLHandler.SetConnectionString(System.String)
   BuildAssemblerCore: Building topic N:CADSharpTools.Diagnostics
-  BuildAssemblerCore: Building topic T:CADSharpTools.Diagnostics.Console
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Diagnostics.Console
-  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Console.AllocateConsole
-  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Console.FreeConsole
+  BuildAssemblerCore: Building topic T:CADSharpTools.Diagnostics.Logger
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Diagnostics.Logger
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Diagnostics.Logger
+  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Logger.#ctor(System.IO.DirectoryInfo,System.String,System.Boolean)
+  BuildAssemblerCore: Building topic P:CADSharpTools.Diagnostics.Logger.LogsFolder
+  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Logger.Print(System.String,CADSharpTools.Diagnostics.Logger.MessageType,System.Exception,System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Logger.PrintEndInfo(System.Boolean,System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Diagnostics.Logger.PrintStartInfo(System.Object)
+  BuildAssemblerCore: Building topic T:CADSharpTools.Diagnostics.Logger.MessageType
   BuildAssemblerCore: Building topic N:CADSharpTools.DocumentManager
   BuildAssemblerCore: Building topic T:CADSharpTools.DocumentManager.swDocMan
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.DocumentManager.swDocMan
   BuildAssemblerCore: Building topic M:CADSharpTools.DocumentManager.swDocMan.#ctor(System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.DocumentManager.swDocMan.GetAllVisibleReferencedPartsFromAssembly(System.String,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.DocumentManager.swDocMan.GetAllVisibleReferencedPartsFromAssembly(System.String,System.String,CADSharpTools.Core.busyIndicatorCallBack)
   BuildAssemblerCore: Building topic N:CADSharpTools.DocumentManager.Models
   BuildAssemblerCore: Building topic T:CADSharpTools.DocumentManager.Models.swDocManVisibleReferencedDocument
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.DocumentManager.Models.swDocManVisibleReferencedDocument
@@ -526,6 +547,68 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Comm
   BuildAssemblerCore: Building topic P:CADSharpTools.DocumentManager.Models.swDocManVisibleReferencedDocument.PathName
   BuildAssemblerCore: Building topic P:CADSharpTools.DocumentManager.Models.swDocManVisibleReferencedDocument.ReferencedConfigurationNames
   BuildAssemblerCore: Building topic M:CADSharpTools.DocumentManager.Models.swDocManVisibleReferencedDocument.ToString
+  BuildAssemblerCore: Building topic N:CADSharpTools.Exceptions
+  BuildAssemblerCore: Building topic T:CADSharpTools.Exceptions.CADSharpToolsPDMException
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Exceptions.CADSharpToolsPDMException
+  BuildAssemblerCore: Building topic P:CADSharpTools.Exceptions.CADSharpToolsPDMException.MessageEnum
+  BuildAssemblerCore: Building topic N:CADSharpTools.MVVM.Models
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:CADSharpTools.MVVM.Models] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.MVVM.Models.Progress
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.Models.Progress] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.Models.Progress] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.MVVM.Models.Progress
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.MVVM.Models.Progress
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.Models.Progress.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.Models.Progress.Cancel
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.Models.Progress.Complete
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.Models.Progress.CompleteWithError(System.String)
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.Models.Progress.IsIndeterminate
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.Models.Progress.Max
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.Models.Progress.Message
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.Models.Progress.ProgressColor
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.Models.Progress.Report(System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.Models.Progress.Reset
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.Models.Progress.Value
+  BuildAssemblerCore: Building topic N:CADSharpTools.MVVM.ViewModels
+  BuildAssemblerCore: Building topic T:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1] Unknown reference link target &#39;!:busy&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1] Invalid reference link target &#39;!:busy&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.#ctor(`0,System.String)
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.Callback
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.CancelCommand
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.CancelCommand] Unknown reference link target &#39;T:Prism.Commands.DelegateCommand&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.IsBusy
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.ShowView(System.Boolean)
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.TimeElapsed
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.BusyIndicatorViewModel`1.Title
+  BuildAssemblerCore: Building topic T:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.#ctor(CADSharpTools.Core.MethodReturn{`0}[],System.Reflection.Assembly)
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.Errors
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.IsIdle
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.ProgramFullName
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.SelectedError
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.SendReport
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.SendReportCommand
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.SendReportCommand] Unknown reference link target &#39;T:Prism.Commands.DelegateCommand&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.ErrorViewModel`1.SupportEmail
+  BuildAssemblerCore: Building topic T:CADSharpTools.MVVM.ViewModels.MessageViewModel
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.MVVM.ViewModels.MessageViewModel] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.MVVM.ViewModels.MessageViewModel
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.MVVM.ViewModels.MessageViewModel
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.MVVM.ViewModels.MessageViewModel.ShowView
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.MessageViewModel.#ctor(System.String)
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.MessageViewModel.CloseCommand
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.MVVM.ViewModels.MessageViewModel.CloseCommand] Unknown reference link target &#39;T:Prism.Commands.DelegateCommand&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.MessageViewModel.Message
+  BuildAssemblerCore: Building topic P:CADSharpTools.MVVM.ViewModels.MessageViewModel.ProgramFullName
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.MessageViewModel.ShowView(System.Reflection.Assembly,System.Boolean)
+  BuildAssemblerCore: Building topic M:CADSharpTools.MVVM.ViewModels.MessageViewModel.ShowView(System.String,System.Boolean)
   BuildAssemblerCore: Building topic N:CADSharpTools.PDM
   BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Extension
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Extension
@@ -545,9 +628,10 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Extension.BatchCheckOutFiles(EPDM.Interop.epdm.IEdmVault5,System.String[],System.Int32)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.BatchCheckOutFiles(EPDM.Interop.epdm.IEdmVault5,System.String[],System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.BatchCheckOutFiles(EPDM.Interop.epdm.IEdmVault5,System.String[],System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,EPDM.Interop.epdm.EdmUnlockFlag,System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,EPDM.Interop.epdm.EdmUnlockFlag,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,EPDM.Interop.epdm.EdmUnlockFlag,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmUnlockFlag&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckIn(EPDM.Interop.epdm.IEdmFile5,System.Int32,EPDM.Interop.epdm.EdmUnlockFlag,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Extension.CheckOut(EPDM.Interop.epdm.IEdmFile5,System.Int32,System.String)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckOut(EPDM.Interop.epdm.IEdmFile5,System.Int32,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.CheckOut(EPDM.Interop.epdm.IEdmFile5,System.Int32,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
@@ -659,224 +743,31 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.
   BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Extension.UndoCheckOut(EPDM.Interop.epdm.IEdmFile5,System.Int32)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.UndoCheckOut(EPDM.Interop.epdm.IEdmFile5,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Extension.UndoCheckOut(EPDM.Interop.epdm.IEdmFile5,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic N:CADSharpTools.PDM.Database
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Database.SQLHandler
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Database.SQLHandler
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Database.SQLHandler
-  BuildAssemblerCore: Building topic Overload:CADSharpTools.PDM.Database.SQLHandler.PerformSQLTransaction
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Database.SQLHandler.Close
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Database.SQLHandler.Connection
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Database.SQLHandler.ConnectionString
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Database.SQLHandler.Dispose
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Database.SQLHandler.Open
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Database.SQLHandler.PerformSQLTransaction(System.Func{System.Data.SqlClient.SqlConnection,CADSharpTools.Commons.MethodReturn{System.Boolean}})
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Database.SQLHandler.PerformSQLTransaction``1(System.Func{System.Data.SqlClient.SqlConnection,CADSharpTools.Commons.MethodReturn{``0}})
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Database.SQLHandler.SetConnectionString(System.String)
-  BuildAssemblerCore: Building topic N:CADSharpTools.PDM.Diagnostics
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Diagnostics.Logger
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Diagnostics.Logger
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Diagnostics.Logger
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Diagnostics.Logger.#ctor(System.IO.DirectoryInfo,System.String,System.Boolean)
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Diagnostics.Logger.LogsFolder
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Diagnostics.Logger.Print(System.String,CADSharpTools.PDM.Diagnostics.Logger.MessageType,System.Exception,System.Int32)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Diagnostics.Logger.PrintEndInfo(System.Boolean,System.Int32)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Diagnostics.Logger.PrintStartInfo(System.Object)
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Diagnostics.Logger.MessageType
-  BuildAssemblerCore: Building topic N:CADSharpTools.PDM.MVVM.ViewModels
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1.#ctor(CADSharpTools.Commons.MethodReturn{`0}[],System.Reflection.Assembly)
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1.Errors
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1.ProgramFullName
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1.ShowView(System.Boolean)
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.ErrorViewModel`1.SupportEmail
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel] Unknown reference link target &#39;T:Prism.Mvvm.BindableBase&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel
-  BuildAssemblerCore: Building topic Overload:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.#ctor(System.String)
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.CloseCommand
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.CloseCommand] Unknown reference link target &#39;T:Prism.Commands.DelegateCommand&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.Message
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ProgramFullName
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView(System.Reflection.Assembly,System.Boolean)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.MVVM.ViewModels.MessageViewModel.ShowView(System.String,System.Boolean)
-  BuildAssemblerCore: Building topic N:CADSharpTools.PDM.Testing
-BuildAssembler : warning : ResolveReferenceLinksComponent: [N:CADSharpTools.PDM.Testing] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmCmdNode&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.EdmObjectFactory
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.EdmObjectFactory
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.CreateVaultObject(System.String,System.Int32)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.CreateVaultObject(System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetuserGroupObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetuserGroupObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetuserGroupObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmUserGroup5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetUserObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetUserObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetUserObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmUser5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetWorkflowTransition(EPDM.Interop.epdm.IEdmWorkflow6,System.String,System.Int32)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetWorkflowTransition(EPDM.Interop.epdm.IEdmWorkflow6,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmWorkflow6&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.GetWorkflowTransition(EPDM.Interop.epdm.IEdmWorkflow6,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTransition5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdType&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmRefreshFlag&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdType&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmState5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmState5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTransition5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmUser5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.PDM.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdData&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.mEdmCmdNode
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.Testing.mEdmCmdNode] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmCmdNode&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.Testing.mEdmCmdNode] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.mEdmCmdNode
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Testing.mEdmCmdNode
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CADSharpTools.PDM.Testing.mEdmCmdNode] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmCmdNode.#ctor(System.Func{EPDM.Interop.epdm.EdmCmdNodeProp,System.Object,System.Object})
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmCmdNode.#ctor(System.Func{EPDM.Interop.epdm.EdmCmdNodeProp,System.Object,System.Object})] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdNodeProp&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmCmdNode.#ctor(System.Func{EPDM.Interop.epdm.EdmCmdNodeProp,System.Object,System.Object})] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdNodeProp&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmCmdNode.GetPropertyFunc
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmCmdNode.GetPropertyFunc] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmCmdNode.GetPropertyFunc] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdNodeProp&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.mEdmPos5
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.mEdmPos5
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Testing.mEdmPos5
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmPos5.#ctor(System.Int32)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmPos5.Clone
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmPos5.Clone] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmPos5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmPos5.Clone] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmPos5.Clone&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmPos5.GetIndex
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmPos5.IsNull
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmPos5.IsNull] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmPos5.IsNull&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.mEdmStrLst5
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.mEdmStrLst5
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Testing.mEdmStrLst5
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmStrLst5.#ctor(System.String[])
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmStrLst5.AddTail(System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmStrLst5.AddTail(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmStrLst5.AddTail(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmStrLst5.Count
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmStrLst5.Count] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmStrLst5.Count&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmStrLst5.GetHeadPosition
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmStrLst5.GetHeadPosition] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmPos5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmStrLst5.GetHeadPosition] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmStrLst5.GetHeadPosition&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmPos5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmStrLst5.IsEmpty
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmStrLst5.IsEmpty] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmStrLst5.IsEmpty&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.mEdmTaskInstance
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.Testing.mEdmTaskInstance] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTaskInstance&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.PDM.Testing.mEdmTaskInstance] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.mEdmTaskInstance
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Testing.mEdmTaskInstance
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CADSharpTools.PDM.Testing.mEdmTaskInstance] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.#ctor
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.#ctor] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTaskInstance&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetStatus
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetStatus] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetStatus] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetValEx(System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetValEx(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVar(System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVar(System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetVar(System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVarExExtended
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVarExExtended] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.GetVarExtended
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.ID
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskInstance.ID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.ID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.InstanceGUID
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskInstance.InstanceGUID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.InstanceGUID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetProgressPos(System.Int32,System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetProgressPos(System.Int32,System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetProgressPos(System.Int32,System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetProgressRange(System.Int32,System.Int32,System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetProgressRange(System.Int32,System.Int32,System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetProgressRange(System.Int32,System.Int32,System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetValEx(System.String,System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetValEx(System.String,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetValEx(System.String,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetVar(System.Object,System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskInstance.SetVar(System.Object,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetVar(System.Object,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.TaskGUID
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskInstance.TaskGUID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.TaskGUID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskInstance.TaskName
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskInstance.TaskName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.TaskName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.mEdmTaskProperties
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.mEdmTaskProperties
-  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.PDM.Testing.mEdmTaskProperties
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.#ctor
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.AddInName
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.AddInName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.AddInName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.FormName
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.FormName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.FormName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskMenuCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSel&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSetupPage&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetValEx(System.String)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetValEx(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetVar(System.Int32)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.GetVar(System.Int32)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetVar(System.Int32)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.IsScheduled
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.IsScheduled] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.IsScheduled&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.RetryCount
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.RetryCount] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.RetryCount&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskMenuCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSel&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSetupPage&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetValEx(System.String,System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetValEx(System.String,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetValEx(System.String,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetVar(System.Int32,System.Object)
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.PDM.Testing.mEdmTaskProperties.SetVar(System.Int32,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetVar(System.Int32,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskFlags
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskFlags] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskFlags&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskGUID
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskGUID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskGUID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskID
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskName
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TaskName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TimeoutInSeconds
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.TimeoutInSeconds] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TimeoutInSeconds&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic P:CADSharpTools.PDM.Testing.mEdmTaskProperties.UserName
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.PDM.Testing.mEdmTaskProperties.UserName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.UserName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
-  BuildAssemblerCore: Building topic T:CADSharpTools.PDM.Testing.TestsManager
-  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.PDM.Testing.TestsManager
-  BuildAssemblerCore: Building topic Overload:CADSharpTools.PDM.Testing.TestsManager.ExecuteTest
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.TestsManager.ExecuteTest(System.Action,System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.TestsManager.ExecuteTest(System.Action{System.String},System.String,System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.TestsManager.ExecuteTest(System.Func{System.String,System.String[]},System.String)
-  BuildAssemblerCore: Building topic M:CADSharpTools.PDM.Testing.TestsManager.ExecuteTests(System.Action[])
+  BuildAssemblerCore: Building topic N:CADSharpTools.Serialization
+  BuildAssemblerCore: Building topic T:CADSharpTools.Serialization.CTContractSerialization`1
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Serialization.CTContractSerialization`1
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTContractSerialization`1.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTContractSerialization`1.Deserialize(System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTContractSerialization`1.SaveToXML(`0,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTContractSerialization`1.Serialize(`0)
+  BuildAssemblerCore: Building topic T:CADSharpTools.Serialization.CTSerialization`1
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Serialization.CTSerialization`1
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTSerialization`1.#ctor
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTSerialization`1.Deserialize(System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTSerialization`1.SaveToXML(`0,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Serialization.CTSerialization`1.Serialize(`0)
   BuildAssemblerCore: Building topic N:CADSharpTools.SOLIDWORKS
   BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.Application
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.Application
-  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Application.#ctor
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.SOLIDWORKS.Application
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.SOLIDWORKS.Application.ConvertSWRevisionNumberToYear
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Application.#ctor(System.Int32,System.Boolean)
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Application.ConvertSWRevisionNumberToYear(System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Application.ConvertSWRevisionNumberToYear(System.String)
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Application.ConvertYearToSWRevisionNumber(System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Application.Dispose
+  BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.Application.SOLIDWORKS
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.SOLIDWORKS.Application.SOLIDWORKS] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.SldWorks&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.Extension
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.Extension
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Extension.DeleteAllProperties(SolidWorks.Interop.sldworks.ModelDoc2,System.Boolean,System.Boolean)
@@ -927,11 +818,16 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLI
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swLengthUnit_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swLengthUnit_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)] Unknown reference link target &#39;!:CADSharpTools.Commons.CADSharpToolsPDMException&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertLength(SolidWorks.Interop.swconst.swLengthUnit_e,SolidWorks.Interop.swconst.swLengthUnit_e,System.Double)] Invalid reference link target &#39;!:CADSharpTools.Commons.CADSharpToolsPDMException&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swUnitsMassPropMass_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)] Unknown reference link target &#39;T:SolidWorks.Interop.swconst.swUnitsMassPropMass_e&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)] Unknown reference link target &#39;!:CADSharpTools.Commons.CADSharpToolsPDMException&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Measure.ConvertMass(SolidWorks.Interop.swconst.swUnitsMassPropMass_e,SolidWorks.Interop.swconst.swUnitsMassPropMass_e,System.Double)] Invalid reference link target &#39;!:CADSharpTools.Commons.CADSharpToolsPDMException&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools.SOLIDWORKS.Singleton
   BuildAssemblerCore: Building topic Methods.T:CADSharpTools.SOLIDWORKS.Singleton
+  BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Singleton.Close
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Singleton.Dispose
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.Singleton.GetApplication(System.Int32,System.Boolean)
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.SOLIDWORKS.Singleton.GetApplication(System.Int32,System.Boolean)] Unknown reference link target &#39;T:SolidWorks.Interop.sldworks.SldWorks&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
@@ -986,24 +882,214 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.SOLI
   BuildAssemblerCore: Building topic P:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.SOLIDWORKSProcess
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.Start
   BuildAssemblerCore: Building topic M:CADSharpTools.SOLIDWORKS.UIAutomation.swDialogWatcher.Stop
+  BuildAssemblerCore: Building topic N:CADSharpTools.Testing
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:CADSharpTools.Testing] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmCmdNode&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:CADSharpTools.Testing] Unknown reference link target &#39;F:EPDM.Interop.epdm.EdmCmdType.EdmCmd_TaskSetup&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.EdmObjectFactory
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.EdmObjectFactory
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.CreateFileObjectFromRelativePath(EPDM.Interop.epdm.IEdmVault5,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.CreateVaultObject(System.String,System.Int32)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.CreateVaultObject(System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.GetuserGroupObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.GetuserGroupObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.GetuserGroupObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmUserGroup5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.GetUserObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.GetUserObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.GetUserObject(EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmUser5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.GetWorkflowTransition(EPDM.Interop.epdm.IEdmWorkflow6,System.String,System.Int32)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.GetWorkflowTransition(EPDM.Interop.epdm.IEdmWorkflow6,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmWorkflow6&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.GetWorkflowTransition(EPDM.Interop.epdm.IEdmWorkflow6,System.String,System.Int32)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTransition5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdType&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmVault5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmRefreshFlag&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmd(EPDM.Interop.epdm.EdmCmdType,EPDM.Interop.epdm.IEdmVault5,System.String,System.Int32,System.Int32,System.Int32,EPDM.Interop.epdm.EdmRefreshFlag,System.Boolean,System.Boolean,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmFile5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdType&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmState5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmState5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTransition5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmUser5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.EdmObjectFactory.MockEdmCmdDataFromFile(EPDM.Interop.epdm.IEdmFile5,EPDM.Interop.epdm.EdmCmdType,System.Object,System.String,System.String[],EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmState5,EPDM.Interop.epdm.IEdmTransition5,CADSharpTools.Testing.mEdmCmdNode,System.Int32,EPDM.Interop.epdm.IEdmUser5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdData&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.ICmdLoadableUserControl
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Testing.ICmdLoadableUserControl] Unknown reference link target &#39;F:EPDM.Interop.epdm.EdmCmdType.EdmCmd_TaskSetup&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.ICmdLoadableUserControl
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.ICmdLoadableUserControl.LoadData(EPDM.Interop.epdm.EdmCmd@)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.ICmdLoadableUserControl.LoadData(EPDM.Interop.epdm.EdmCmd@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.ICmdLoadableUserControl.LoadData(EPDM.Interop.epdm.EdmCmd@)] Unknown reference link target &#39;F:EPDM.Interop.epdm.EdmCmdType.EdmCmd_TaskSetup&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.ICmdLoadableUserControl.LoadData(EPDM.Interop.epdm.EdmCmd@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.ICmdLoadableUserControl.StoreData(EPDM.Interop.epdm.EdmCmd@)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.ICmdLoadableUserControl.StoreData(EPDM.Interop.epdm.EdmCmd@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.mEdmCmdNode
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Testing.mEdmCmdNode] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmCmdNode&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Testing.mEdmCmdNode] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.mEdmCmdNode
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Testing.mEdmCmdNode
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CADSharpTools.Testing.mEdmCmdNode] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmCmdNode.#ctor(System.Func{EPDM.Interop.epdm.EdmCmdNodeProp,System.Object,System.Object})
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmCmdNode.#ctor(System.Func{EPDM.Interop.epdm.EdmCmdNodeProp,System.Object,System.Object})] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdNodeProp&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmCmdNode.#ctor(System.Func{EPDM.Interop.epdm.EdmCmdNodeProp,System.Object,System.Object})] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdNodeProp&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmCmdNode.GetPropertyFunc
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmCmdNode.GetPropertyFunc] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmCmdNode.GetProperty(EPDM.Interop.epdm.EdmCmdNodeProp,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmCmdNode.GetPropertyFunc] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmdNodeProp&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.mEdmPos5
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.mEdmPos5
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Testing.mEdmPos5
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmPos5.#ctor(System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmPos5.Clone
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmPos5.Clone] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmPos5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmPos5.Clone] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmPos5.Clone&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmPos5.GetIndex
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmPos5.IsNull
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmPos5.IsNull] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmPos5.IsNull&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.mEdmStrLst5
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.mEdmStrLst5
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Testing.mEdmStrLst5
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmStrLst5.#ctor(System.String[])
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmStrLst5.AddTail(System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmStrLst5.AddTail(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmStrLst5.AddTail(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmStrLst5.Count
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmStrLst5.Count] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmStrLst5.Count&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmStrLst5.GetHeadPosition
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmStrLst5.GetHeadPosition] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmPos5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmStrLst5.GetHeadPosition] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmStrLst5.GetHeadPosition&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmPos5&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmStrLst5.GetNext(EPDM.Interop.epdm.IEdmPos5)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmStrLst5.IsEmpty
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmStrLst5.IsEmpty] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmStrLst5.IsEmpty&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.mEdmTaskInstance
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Testing.mEdmTaskInstance] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTaskInstance&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools.Testing.mEdmTaskInstance] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.mEdmTaskInstance
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Testing.mEdmTaskInstance
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CADSharpTools.Testing.mEdmTaskInstance] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.#ctor
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.#ctor] Unknown reference link target &#39;T:EPDM.Interop.epdm.IEdmTaskInstance&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.GetStatus
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.GetStatus] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.GetStatus] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.GetValEx(System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.GetValEx(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.GetVar(System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.GetVar(System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetVar(System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskInstance.GetVarExExtended
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskInstance.GetVarExExtended] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskInstance.GetVarExtended
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskInstance.ID
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskInstance.ID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.ID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskInstance.InstanceGUID
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskInstance.InstanceGUID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.InstanceGUID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.SetProgressPos(System.Int32,System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.SetProgressPos(System.Int32,System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetProgressPos(System.Int32,System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.SetProgressRange(System.Int32,System.Int32,System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.SetProgressRange(System.Int32,System.Int32,System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetProgressRange(System.Int32,System.Int32,System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskStatus&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetStatus(EPDM.Interop.epdm.EdmTaskStatus,System.Int32,System.String,System.Object,System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.SetValEx(System.String,System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.SetValEx(System.String,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetValEx(System.String,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskInstance.SetVar(System.Object,System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskInstance.SetVar(System.Object,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskInstance.SetVar(System.Object,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskInstance.TaskGUID
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskInstance.TaskGUID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.TaskGUID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskInstance.TaskName
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskInstance.TaskName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskInstance.TaskName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.mEdmTaskProperties
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.mEdmTaskProperties
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Testing.mEdmTaskProperties
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.#ctor
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.AddInName
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.AddInName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.AddInName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.FormName
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.FormName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.FormName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskMenuCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[]@)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSel&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetSel(EPDM.Interop.epdm.EdmTaskSel[]@)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSetupPage&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[]@)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.GetValEx(System.String)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetValEx(System.String)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetValEx(System.String)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.GetVar(System.Int32)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.GetVar(System.Int32)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.GetVar(System.Int32)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.IsScheduled
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.IsScheduled] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.IsScheduled&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.RetryCount
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.RetryCount] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.RetryCount&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskMenuCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetMenuCmds(EPDM.Interop.epdm.EdmTaskMenuCmd[])&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSel&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetSel(EPDM.Interop.epdm.EdmTaskSel[])&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmTaskSetupPage&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetSetupPages(EPDM.Interop.epdm.EdmTaskSetupPage[])&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.SetValEx(System.String,System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetValEx(System.String,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetValEx(System.String,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.mEdmTaskProperties.SetVar(System.Int32,System.Object)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.mEdmTaskProperties.SetVar(System.Int32,System.Object)] Unknown reference link target &#39;M:EPDM.Interop.epdm.IEdmTaskProperties.SetVar(System.Int32,System.Object)&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.TaskFlags
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.TaskFlags] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskFlags&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.TaskGUID
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.TaskGUID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskGUID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.TaskID
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.TaskID] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskID&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.TaskName
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.TaskName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TaskName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.TimeoutInSeconds
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.TimeoutInSeconds] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.TimeoutInSeconds&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.mEdmTaskProperties.UserName
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.mEdmTaskProperties.UserName] Unknown reference link target &#39;P:EPDM.Interop.epdm.IEdmTaskProperties.UserName&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1
+  BuildAssemblerCore: Building topic Properties.T:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1.Cmd
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1.Cmd] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1.CreateShell(`0,EPDM.Interop.epdm.EdmCmd@)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1.CreateShell(`0,EPDM.Interop.epdm.EdmCmd@)] Unknown reference link target &#39;T:EPDM.Interop.epdm.EdmCmd&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic P:CADSharpTools.Testing.OnTaskSetupUserControlContainer`1.UserControl
+  BuildAssemblerCore: Building topic T:CADSharpTools.Testing.Tools
+  BuildAssemblerCore: Building topic Methods.T:CADSharpTools.Testing.Tools
+  BuildAssemblerCore: Building topic Overload:CADSharpTools.Testing.Tools.ExecuteTest
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.Tools.AttachToDebugger(System.Int32)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.Tools.ExecuteTest(System.Action,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.Tools.ExecuteTest(System.Action{System.String},System.String,System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.Tools.ExecuteTest(System.Func{System.String,System.String[]},System.String)
+  BuildAssemblerCore: Building topic M:CADSharpTools.Testing.Tools.ExecuteTests(System.Action[])
   BuildAssemblerCore: Building topic N:CADSharpTools_e
   BuildAssemblerCore: Building topic T:CADSharpTools_e.CADSharpToolsPDMExceptionMessages_e
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools_e.CADSharpToolsPDMExceptionMessages_e] Unknown reference link target &#39;!:CADSharpTools.Commons.CADSharpToolsPDMException&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools_e.CADSharpToolsPDMExceptionMessages_e] Invalid reference link target &#39;!:CADSharpTools.Commons.CADSharpToolsPDMException&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools_e.GetDataCardVariableReturn_e
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools_e.GetDataCardVariableReturn_e] Unknown reference link target &#39;!:CADSharpTools.Commons.MethodReturn&lt;T, IConvertible&gt;.Error&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CADSharpTools_e.GetDataCardVariableReturn_e] Invalid reference link target &#39;!:CADSharpTools.Commons.MethodReturn&lt;T, IConvertible&gt;.Error&#39;. [P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj]
   BuildAssemblerCore: Building topic T:CADSharpTools_e.LengthUnits_e
   BuildAssemblerCore: Building topic T:CADSharpTools_e.SpecialFolder
   BuildAssemblerCore: Building topic R:Project_CADSharpTools.PDM.Documentation
-  Processed 344 topic(s)
-  225 warning(s)
+  Processed 395 topic(s)
+  249 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
-  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 12 of 15.
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 13 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 Done Building Project &quot;P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:10.1783
+    Last step completed in 00:00:12.8169
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0509
+    Last step completed in 00:00:00.0559
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1015,11 +1101,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website
-Processed 344 HTML files
+Processed 395 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\WebKI.xml
 Saving website table of contents to P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\WebTOC.xml
-    Last step completed in 00:00:01.2383
+    Last step completed in 00:00:01.9508
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -1101,33 +1187,33 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; P:\CADSharpTools.PDM Docs Hosted on GitHub\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.4009
+    Last step completed in 00:00:00.4029
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:02.3366
+</plugIn>    Last step completed in 00:00:01.1878
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 533 files for the website content
-    Last step completed in 00:00:03.2885
+Copied 603 files for the website content
+    Last step completed in 00:00:02.9691
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:01.1957
+    Last step completed in 00:00:00.9993
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 3/3/2019 5:17:10 PM.  Total time: 00:00:22.9298
+Build completed successfully at 3/18/2019 8:20:09 PM.  Total time: 00:00:26.3952
 
 </buildStep>
 </shfbBuild>
