@@ -282,6 +282,7 @@
   <HelpKINode Title="ErrorViewModel(Of T).SelectedError property" Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SelectedError.htm" />
   <HelpKINode Title="ErrorViewModel(Of T).SendReport method" Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SendReport.htm" />
   <HelpKINode Title="ErrorViewModel(Of T).SendReportCommand property" Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SendReportCommand.htm" />
+  <HelpKINode Title="ErrorViewModel(Of T).ShowView method" Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_ShowView.htm" />
   <HelpKINode Title="ErrorViewModel(Of T).SupportEmail property" Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SupportEmail.htm" />
   <HelpKINode Title="ErrorViewModel&lt;T&gt; class">
     <HelpKINode Title="ErrorViewModel(T) Class" Url="html/T_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1.htm" />
@@ -296,6 +297,7 @@
   <HelpKINode Title="ErrorViewModel&lt;T&gt;.SelectedError property" Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SelectedError.htm" />
   <HelpKINode Title="ErrorViewModel&lt;T&gt;.SendReport method" Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SendReport.htm" />
   <HelpKINode Title="ErrorViewModel&lt;T&gt;.SendReportCommand property" Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SendReportCommand.htm" />
+  <HelpKINode Title="ErrorViewModel&lt;T&gt;.ShowView method" Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_ShowView.htm" />
   <HelpKINode Title="ErrorViewModel&lt;T&gt;.SupportEmail property" Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SupportEmail.htm" />
   <HelpKINode Title="EvaluateDirectory method" Url="html/M_CADSharpTools_Core_Extension_EvaluateDirectory.htm" />
   <HelpKINode Title="Exception property">
@@ -307,13 +309,13 @@
   <HelpKINode Title="ExecuteTests method" Url="html/M_CADSharpTools_Testing_Tools_ExecuteTests.htm" />
   <HelpKINode Title="Extension class">
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_Core_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.BatchCheckIn method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm" />
   <HelpKINode Title="Extension.BatchCheckOutFiles method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm" />
@@ -329,8 +331,8 @@
   <HelpKINode Title="Extension.GetAllFiles method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFiles.htm" />
   <HelpKINode Title="Extension.GetAllFilesAsync method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFilesAsync.htm" />
   <HelpKINode Title="Extension.GetAllReferences method">
-    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
     <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllReferences.htm" />
+    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.GetAllUserGroups method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUserGroups.htm" />
   <HelpKINode Title="Extension.GetAllUsers method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUsers.htm" />
@@ -767,6 +769,7 @@
   <HelpKINode Title="ShowInBillOfMaterials method" Url="html/M_CADSharpTools_PDM_Extension_ShowInBillOfMaterials.htm" />
   <HelpKINode Title="ShowView method">
     <HelpKINode Title="BusyIndicatorViewModel(T).ShowView Method " Url="html/M_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_ShowView.htm" />
+    <HelpKINode Title="ErrorViewModel(T).ShowView Method " Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_ShowView.htm" />
     <HelpKINode Title="MessageViewModel.ShowView Method " Url="html/Overload_CADSharpTools_MVVM_ViewModels_MessageViewModel_ShowView.htm" />
   </HelpKINode>
   <HelpKINode Title="Singleton class">
