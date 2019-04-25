@@ -283,9 +283,11 @@
   <HelpKINode Title="Document.Document constructor" Url="html/M_CADSharpTools_Core_Models_Document__ctor.htm" />
   <HelpKINode Title="Document.FlattenReferences method" Url="html/M_CADSharpTools_Core_Models_Document_FlattenReferences.htm" />
   <HelpKINode Title="Document.FolderID property" Url="html/P_CADSharpTools_Core_Models_Document_FolderID.htm" />
+  <HelpKINode Title="Document.GetRebuildOrder method" Url="html/M_CADSharpTools_Core_Models_Document_GetRebuildOrder.htm" />
   <HelpKINode Title="Document.HasChildren property" Url="html/P_CADSharpTools_Core_Models_Document_HasChildren.htm" />
   <HelpKINode Title="Document.ID property" Url="html/P_CADSharpTools_Core_Models_Document_ID.htm" />
   <HelpKINode Title="Document.LocalPath property" Url="html/P_CADSharpTools_Core_Models_Document_LocalPath.htm" />
+  <HelpKINode Title="Document.NeedsRegeneration property" Url="html/P_CADSharpTools_Core_Models_Document_NeedsRegeneration.htm" />
   <HelpKINode Title="Document.References property" Url="html/P_CADSharpTools_Core_Models_Document_References.htm" />
   <HelpKINode Title="DocumentRebuilder class">
     <HelpKINode Title="DocumentRebuilder Class" Url="html/T_CADSharpTools_PDM_DocumentRebuilder.htm" />
@@ -354,14 +356,14 @@
   <HelpKINode Title="ExecuteTests method" Url="html/M_CADSharpTools_Testing_Tools_ExecuteTests.htm" />
   <HelpKINode Title="Exit method" Url="html/M_CADSharpTools_SOLIDWORKS_Application_Exit.htm" />
   <HelpKINode Title="Extension class">
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_Core_Extension.htm" />
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_Core_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.BatchCheckIn method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm" />
   <HelpKINode Title="Extension.BatchCheckOutFiles method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm" />
@@ -447,8 +449,8 @@
   <HelpKINode Title="GetAllFiles method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFiles.htm" />
   <HelpKINode Title="GetAllFilesAsync method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFilesAsync.htm" />
   <HelpKINode Title="GetAllReferences method">
-    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
     <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllReferences.htm" />
+    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
   </HelpKINode>
   <HelpKINode Title="GetAllUserGroups method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUserGroups.htm" />
   <HelpKINode Title="GetAllUsers method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUsers.htm" />
@@ -481,6 +483,7 @@
   <HelpKINode Title="GetPDMFileReferencedDocuments method" Url="html/M_CADSharpTools_PDM_Extension_GetPDMFileReferencedDocuments.htm" />
   <HelpKINode Title="GetProperty method" Url="html/M_CADSharpTools_Testing_mEdmCmdNode_GetProperty.htm" />
   <HelpKINode Title="GetPropertyFunc property" Url="html/P_CADSharpTools_Testing_mEdmCmdNode_GetPropertyFunc.htm" />
+  <HelpKINode Title="GetRebuildOrder method" Url="html/M_CADSharpTools_Core_Models_Document_GetRebuildOrder.htm" />
   <HelpKINode Title="GetSel method" Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_GetSel.htm" />
   <HelpKINode Title="GetSelectedObjects(Of T) method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetSelectedObjects__1.htm" />
   <HelpKINode Title="GetSelectedObjects&lt;T&gt; method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetSelectedObjects__1.htm" />
@@ -708,6 +711,7 @@
   <HelpKINode Title="MockEdmCmd method" Url="html/M_CADSharpTools_Testing_EdmObjectFactory_MockEdmCmd.htm" />
   <HelpKINode Title="MockEdmCmdDataFromFile method" Url="html/M_CADSharpTools_Testing_EdmObjectFactory_MockEdmCmdDataFromFile.htm" />
   <HelpKINode Title="MsgBox method" Url="html/M_CADSharpTools_PDM_Extension_MsgBox.htm" />
+  <HelpKINode Title="NeedsRegeneration property" Url="html/P_CADSharpTools_Core_Models_Document_NeedsRegeneration.htm" />
   <HelpKINode Title="NoLocalCopy enumeration member" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
   <HelpKINode Title="ObjectArrayToBStrWrapperArray method" Url="html/M_CADSharpTools_SOLIDWORKS_Extension_ObjectArrayToBStrWrapperArray.htm" />
   <HelpKINode Title="OnTaskSetupUserControlContainer(Of T) class">
