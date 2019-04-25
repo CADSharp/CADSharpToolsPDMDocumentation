@@ -32,10 +32,12 @@
   <HelpKINode Title="BrowseToFolder method" Url="html/M_CADSharpTools_Core_Extension_BrowseToFolder.htm" />
   <HelpKINode Title="busyIndicatorCallBack class">
     <HelpKINode Title="busyIndicatorCallBack Class" Url="html/T_CADSharpTools_Core_busyIndicatorCallBack.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CADSharpTools_Core_busyIndicatorCallBack__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_CADSharpTools_Core_busyIndicatorCallBack.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_busyIndicatorCallBack.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_CADSharpTools_Core_busyIndicatorCallBack.htm" />
   </HelpKINode>
+  <HelpKINode Title="busyIndicatorCallBack.busyIndicatorCallBack constructor" Url="html/M_CADSharpTools_Core_busyIndicatorCallBack__ctor.htm" />
   <HelpKINode Title="busyIndicatorCallBack.Cancel method" Url="html/M_CADSharpTools_Core_busyIndicatorCallBack_Cancel.htm" />
   <HelpKINode Title="busyIndicatorCallBack.CancelRequested property" Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_CancelRequested.htm" />
   <HelpKINode Title="busyIndicatorCallBack.Count property" Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_Count.htm" />
@@ -93,7 +95,7 @@
   <HelpKINode Title="CADSharpTools.Core.busyIndicatorCallBackFinishEventArgs class" Url="html/T_CADSharpTools_Core_busyIndicatorCallBackFinishEventArgs.htm" />
   <HelpKINode Title="CADSharpTools.Core.busyIndicatorCallBackState_e enumeration" Url="html/T_CADSharpTools_Core_busyIndicatorCallBackState_e.htm" />
   <HelpKINode Title="CADSharpTools.Core.busyIndicatorInvoker class" Url="html/T_CADSharpTools_Core_busyIndicatorInvoker.htm" />
-  <HelpKINode Title="CADSharpTools.Core.ctpCallback interface" Url="html/T_CADSharpTools_Core_ctpCallback.htm" />
+  <HelpKINode Title="CADSharpTools.Core.ctpICallback interface" Url="html/T_CADSharpTools_Core_ctpICallback.htm" />
   <HelpKINode Title="CADSharpTools.Core.Extension class" Url="html/T_CADSharpTools_Core_Extension.htm" />
   <HelpKINode Title="CADSharpTools.Core.MethodReturn class" Url="html/T_CADSharpTools_Core_MethodReturn.htm" />
   <HelpKINode Title="CADSharpTools.Core.MethodReturn(Of T) class" Url="html/T_CADSharpTools_Core_MethodReturn_1.htm" />
@@ -170,14 +172,14 @@
   </HelpKINode>
   <HelpKINode Title="Cancel method">
     <HelpKINode Title="busyIndicatorCallBack.Cancel Method " Url="html/M_CADSharpTools_Core_busyIndicatorCallBack_Cancel.htm" />
-    <HelpKINode Title="ctpCallback.Cancel Method " Url="html/M_CADSharpTools_Core_ctpCallback_Cancel.htm" />
+    <HelpKINode Title="ctpICallback.Cancel Method " Url="html/M_CADSharpTools_Core_ctpICallback_Cancel.htm" />
     <HelpKINode Title="Progress.Cancel Method " Url="html/M_CADSharpTools_MVVM_Models_Progress_Cancel.htm" />
   </HelpKINode>
   <HelpKINode Title="CancelCommand property" Url="html/P_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_CancelCommand.htm" />
   <HelpKINode Title="Canceled enumeration member" Url="html/T_CADSharpTools_Core_busyIndicatorCallBackState_e.htm" />
   <HelpKINode Title="CancelRequested property">
     <HelpKINode Title="busyIndicatorCallBack.CancelRequested Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_CancelRequested.htm" />
-    <HelpKINode Title="ctpCallback.CancelRequested Property " Url="html/P_CADSharpTools_Core_ctpCallback_CancelRequested.htm" />
+    <HelpKINode Title="ctpICallback.CancelRequested Property " Url="html/P_CADSharpTools_Core_ctpICallback_CancelRequested.htm" />
   </HelpKINode>
   <HelpKINode Title="Captions property" Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_Captions.htm" />
   <HelpKINode Title="CheckIn method" Url="html/M_CADSharpTools_PDM_Extension_CheckIn.htm" />
@@ -198,7 +200,7 @@
   <HelpKINode Title="CompleteWithError method" Url="html/M_CADSharpTools_MVVM_Models_Progress_CompleteWithError.htm" />
   <HelpKINode Title="Connection property" Url="html/P_CADSharpTools_Database_SQLHandler_Connection.htm" />
   <HelpKINode Title="ConnectionString property" Url="html/P_CADSharpTools_Database_SQLHandler_ConnectionString.htm" />
-  <HelpKINode Title="ConstructDocumentReferenceTreeFromPDM method" Url="html/M_CADSharpTools_Core_Models_Document_ConstructDocumentReferenceTreeFromPDM.htm" />
+  <HelpKINode Title="ConstructReferenceTree method" Url="html/M_CADSharpTools_Core_Models_Document_ConstructReferenceTree.htm" />
   <HelpKINode Title="ContainsCaptions enumeration member" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogCompareMethod_e.htm" />
   <HelpKINode Title="ConvertLength method" Url="html/M_CADSharpTools_SOLIDWORKS_Measure_ConvertLength.htm" />
   <HelpKINode Title="ConvertMass method" Url="html/M_CADSharpTools_SOLIDWORKS_Measure_ConvertMass.htm" />
@@ -231,15 +233,15 @@
   <HelpKINode Title="CTContractSerialization&lt;T&gt;.Deserialize method" Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1_Deserialize.htm" />
   <HelpKINode Title="CTContractSerialization&lt;T&gt;.SaveToXML method" Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1_SaveToXML.htm" />
   <HelpKINode Title="CTContractSerialization&lt;T&gt;.Serialize method" Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1_Serialize.htm" />
-  <HelpKINode Title="ctpCallback interface">
-    <HelpKINode Title="ctpCallback Interface" Url="html/T_CADSharpTools_Core_ctpCallback.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_ctpCallback.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_CADSharpTools_Core_ctpCallback.htm" />
+  <HelpKINode Title="ctpICallback interface">
+    <HelpKINode Title="ctpICallback Interface" Url="html/T_CADSharpTools_Core_ctpICallback.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_ctpICallback.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_CADSharpTools_Core_ctpICallback.htm" />
   </HelpKINode>
-  <HelpKINode Title="ctpCallback.Cancel method" Url="html/M_CADSharpTools_Core_ctpCallback_Cancel.htm" />
-  <HelpKINode Title="ctpCallback.CancelRequested property" Url="html/P_CADSharpTools_Core_ctpCallback_CancelRequested.htm" />
-  <HelpKINode Title="ctpCallback.Finish method" Url="html/M_CADSharpTools_Core_ctpCallback_Finish.htm" />
-  <HelpKINode Title="ctpCallback.Message property" Url="html/P_CADSharpTools_Core_ctpCallback_Message.htm" />
+  <HelpKINode Title="ctpICallback.Cancel method" Url="html/M_CADSharpTools_Core_ctpICallback_Cancel.htm" />
+  <HelpKINode Title="ctpICallback.CancelRequested property" Url="html/P_CADSharpTools_Core_ctpICallback_CancelRequested.htm" />
+  <HelpKINode Title="ctpICallback.Finish method" Url="html/M_CADSharpTools_Core_ctpICallback_Finish.htm" />
+  <HelpKINode Title="ctpICallback.Message property" Url="html/P_CADSharpTools_Core_ctpICallback_Message.htm" />
   <HelpKINode Title="CTSerialization(Of T) class">
     <HelpKINode Title="CTSerialization(T) Class" Url="html/T_CADSharpTools_Serialization_CTSerialization_1.htm" />
     <HelpKINode Title="constructor" Url="html/M_CADSharpTools_Serialization_CTSerialization_1__ctor.htm" />
@@ -277,7 +279,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_Models_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_CADSharpTools_Core_Models_Document.htm" />
   </HelpKINode>
-  <HelpKINode Title="Document.ConstructDocumentReferenceTreeFromPDM method" Url="html/M_CADSharpTools_Core_Models_Document_ConstructDocumentReferenceTreeFromPDM.htm" />
+  <HelpKINode Title="Document.ConstructReferenceTree method" Url="html/M_CADSharpTools_Core_Models_Document_ConstructReferenceTree.htm" />
   <HelpKINode Title="Document.Document constructor" Url="html/M_CADSharpTools_Core_Models_Document__ctor.htm" />
   <HelpKINode Title="Document.FlattenReferences method" Url="html/M_CADSharpTools_Core_Models_Document_FlattenReferences.htm" />
   <HelpKINode Title="Document.FolderID property" Url="html/P_CADSharpTools_Core_Models_Document_FolderID.htm" />
@@ -352,13 +354,13 @@
   <HelpKINode Title="ExecuteTests method" Url="html/M_CADSharpTools_Testing_Tools_ExecuteTests.htm" />
   <HelpKINode Title="Exit method" Url="html/M_CADSharpTools_SOLIDWORKS_Application_Exit.htm" />
   <HelpKINode Title="Extension class">
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_Core_Extension.htm" />
     <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm" />
-    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
+    <HelpKINode Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_Core_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm" />
   </HelpKINode>
   <HelpKINode Title="Extension.BatchCheckIn method" Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm" />
@@ -431,7 +433,7 @@
   <HelpKINode Title="FileMustBeCheckedOut enumeration member" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
   <HelpKINode Title="Finish method">
     <HelpKINode Title="busyIndicatorCallBack.Finish Method " Url="html/M_CADSharpTools_Core_busyIndicatorCallBack_Finish.htm" />
-    <HelpKINode Title="ctpCallback.Finish Method " Url="html/M_CADSharpTools_Core_ctpCallback_Finish.htm" />
+    <HelpKINode Title="ctpICallback.Finish Method " Url="html/M_CADSharpTools_Core_ctpICallback_Finish.htm" />
   </HelpKINode>
   <HelpKINode Title="Finished enumeration member" Url="html/T_CADSharpTools_Core_busyIndicatorCallBackState_e.htm" />
   <HelpKINode Title="Finished event" Url="html/E_CADSharpTools_Core_busyIndicatorCallBack_Finished.htm" />
@@ -445,8 +447,8 @@
   <HelpKINode Title="GetAllFiles method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFiles.htm" />
   <HelpKINode Title="GetAllFilesAsync method" Url="html/M_CADSharpTools_PDM_Extension_GetAllFilesAsync.htm" />
   <HelpKINode Title="GetAllReferences method">
-    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllReferences.htm" />
     <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
+    <HelpKINode Title="Extension.GetAllReferences Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllReferences.htm" />
   </HelpKINode>
   <HelpKINode Title="GetAllUserGroups method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUserGroups.htm" />
   <HelpKINode Title="GetAllUsers method" Url="html/M_CADSharpTools_PDM_Extension_GetAllUsers.htm" />
@@ -626,7 +628,7 @@
   <HelpKINode Title="mEdmTaskProperties.UserName property" Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_UserName.htm" />
   <HelpKINode Title="Message property">
     <HelpKINode Title="busyIndicatorCallBack.Message Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_Message.htm" />
-    <HelpKINode Title="ctpCallback.Message Property " Url="html/P_CADSharpTools_Core_ctpCallback_Message.htm" />
+    <HelpKINode Title="ctpICallback.Message Property " Url="html/P_CADSharpTools_Core_ctpICallback_Message.htm" />
     <HelpKINode Title="MessageViewModel.Message Property " Url="html/P_CADSharpTools_MVVM_ViewModels_MessageViewModel_Message.htm" />
     <HelpKINode Title="Progress.Message Property " Url="html/P_CADSharpTools_MVVM_Models_Progress_Message.htm" />
   </HelpKINode>
